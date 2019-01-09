@@ -1,0 +1,35 @@
+10:12:09 - debug: Server is listing on port 4001
+10:18:40 - debug:  merchantId=esp002, ref1=ESP0001, ref2=1, ref3=1|000, amount=99.45, storeId=esp-store2, terminalId=EPS-002, bankCode=SCB
+10:18:40 - debug: getMerchant2Pay: esp002
+10:18:40 - debug: merchant: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, status=active, store=null, merchantId=esp002, name=BillToEsp, address=450 m.5, tel=0868135354, notifymode=Both, urlhook=http://evlink.haupcar.com:27001/evlink/paymentnotify, hook_key=Bearer hello, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+10:18:41 - debug: store: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143, status=active, terminal=[], storeId=esp-store2, name=Sangthong, bsntype=commerce, pptype=taxid, ppcode=099400015855602, ppbtype=mobile, ppbcode=0868135355, level1=, level2=, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+10:18:41 - debug: store[0].id: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143
+10:18:41 - debug: data.terminalId: EPS-002
+10:18:41 - debug: vMCInfo:
+10:18:41 - debug: id00: 000201
+10:18:41 - debug: id01: 010211
+10:18:41 - debug: v_aid: 0016A000000677010112
+10:18:41 - debug: v_biller_id:: 0115099400015855602
+10:18:41 - debug: ref1: ESP0001
+10:18:41 - debug: ref2: 1
+10:18:41 - debug: len_padding: 07
+10:18:41 - debug: len_padding: 01
+10:18:41 - debug: len_padding: 50
+10:18:41 - debug: len_padding: 00
+10:18:41 - debug: id59: 5900undefined
+10:18:41 - debug: tag39: 30500016A00000067701011201150994000158556020207ESP0001
+10:18:41 - debug: mc-T29-T30: 30500016A00000067701011201150994000158556020207ESP0001
+10:18:41 - debug: id53: 5303764
+10:18:41 - debug: amount-len: 05
+10:18:41 - debug: id54: 540599.45
+10:18:41 - debug: id58: 5802TH
+10:18:41 - debug: Terminal+txnProxyId: EPS-0020000000000595
+10:18:41 - debug: len_padding: 20
+10:18:41 - debug: len_padding: 24
+10:18:42 - debug: results: ["c3aa"]:
+10:18:42 - debug: id63_crc: C3AA
+10:18:42 - debug: id63_crc_upper-case: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-00200000000005956304C3AA
+10:18:42 - debug: qtTxt-genQRCode: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-00200000000005956304C3AA
+10:18:42 - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+10:18:42 - info: ::1 - - [14/Aug/2018:03:18:42 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5317 "-" "PostmanRuntime/7.2.0"
+

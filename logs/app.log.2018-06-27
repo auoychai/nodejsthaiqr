@@ -1,0 +1,53 @@
+11:21:02 PM - debug: Server is listing on port 4001
+11:21:05 PM - debug:  merchantId=esp001, ref1=ESP0001, ref2=DEFAULT, ref3=1|000, amount=105.45, storeId=esp-store1, terminalId=EPS-000000001, bankCode=SCB
+11:21:05 PM - debug: getMerchant2Pay: esp001
+11:21:05 PM - debug: merchant: _bsontype=ObjectID, 0=90, 1=244, 2=2, 3=189, 4=83, 5=45, 6=182, 7=149, 8=53, 9=36, 10=43, 11=52, status=active, store=null, merchantId=esp001, name=Espree.io, address=123 m.5, tel=0868135354, notifymode=Device, urlhook=http://evlink.haupcar.com:27001/evlink/paymentnotify, hook_key=Bearer hello, updatedAt=Thu May 10 2018 15:28:45 GMT+0700 (+07), createdAt=Thu May 10 2018 15:28:45 GMT+0700 (+07), __v=0
+11:21:05 PM - debug: store: _bsontype=ObjectID, 0=90, 1=244, 2=2, 3=189, 4=83, 5=45, 6=182, 7=149, 8=53, 9=36, 10=43, 11=53, status=active, terminal=[], storeId=esp-store1, name=esp-shop, bsntype=person, pptype=mobile, ppcode=0868135354, ppbtype=mobile, ppbcode=0868135355, level1=, level2=, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=90, 1=244, 2=2, 3=189, 4=83, 5=45, 6=182, 7=149, 8=53, 9=36, 10=43, 11=52, updatedAt=Thu May 10 2018 15:28:45 GMT+0700 (+07), createdAt=Thu May 10 2018 15:28:45 GMT+0700 (+07), __v=0
+11:21:05 PM - debug: store[0].id: _bsontype=ObjectID, 0=90, 1=244, 2=2, 3=189, 4=83, 5=45, 6=182, 7=149, 8=53, 9=36, 10=43, 11=53
+11:21:05 PM - debug: data.terminalId: EPS-000000001
+11:21:05 PM - debug: vMCInfo:
+11:21:05 PM - debug: id00: 000201
+11:21:05 PM - debug: id01: 010211
+11:21:05 PM - debug: ppType: mobile
+11:21:05 PM - debug: person-mobile-ppCode: 0066868135354
+11:21:05 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+11:21:05 PM - debug: id53: 5303764
+11:21:05 PM - debug: amount-len: 06
+11:21:05 PM - debug: id54: 5406105.45
+11:21:05 PM - debug: id58: 5802TH
+11:21:05 PM - debug: Terminal+txnProxyId: EPS-0000000010000000000438
+11:21:05 PM - debug: len_padding: 26
+11:21:05 PM - debug: len_padding: 30
+11:21:06 PM - debug: results: ["63f7"]:
+11:21:06 PM - debug: id63_crc: 63F7
+11:21:06 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH53037645406105.4562300726EPS-0000000010000000000438630463F7
+11:21:06 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH53037645406105.4562300726EPS-0000000010000000000438630463F7
+11:21:06 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+11:21:06 PM - info: ::1 - - [27/Jun/2018:16:21:06 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5436 "-" "PostmanRuntime/7.1.5"
+
+11:33:09 PM - debug:  merchantId=esp001, ref1=ESP0001, ref2=DEFAULT, ref3=1|000, amount=105.45, storeId=esp-store1, terminalId=EPS-000000001, bankCode=SCB
+11:33:09 PM - debug: getMerchant2Pay: esp001
+11:33:09 PM - debug: merchant: _bsontype=ObjectID, 0=90, 1=244, 2=2, 3=189, 4=83, 5=45, 6=182, 7=149, 8=53, 9=36, 10=43, 11=52, status=active, store=null, merchantId=esp001, name=Espree.io, address=123 m.5, tel=0868135354, notifymode=Device, urlhook=http://evlink.haupcar.com:27001/evlink/paymentnotify, hook_key=Bearer hello, updatedAt=Thu May 10 2018 15:28:45 GMT+0700 (+07), createdAt=Thu May 10 2018 15:28:45 GMT+0700 (+07), __v=0
+11:33:09 PM - debug: store: _bsontype=ObjectID, 0=90, 1=244, 2=2, 3=189, 4=83, 5=45, 6=182, 7=149, 8=53, 9=36, 10=43, 11=53, status=active, terminal=[], storeId=esp-store1, name=esp-shop, bsntype=person, pptype=mobile, ppcode=0868135354, ppbtype=mobile, ppbcode=0868135355, level1=, level2=, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=90, 1=244, 2=2, 3=189, 4=83, 5=45, 6=182, 7=149, 8=53, 9=36, 10=43, 11=52, updatedAt=Thu May 10 2018 15:28:45 GMT+0700 (+07), createdAt=Thu May 10 2018 15:28:45 GMT+0700 (+07), __v=0
+11:33:09 PM - debug: store[0].id: _bsontype=ObjectID, 0=90, 1=244, 2=2, 3=189, 4=83, 5=45, 6=182, 7=149, 8=53, 9=36, 10=43, 11=53
+11:33:09 PM - debug: data.terminalId: EPS-000000001
+11:33:09 PM - debug: vMCInfo:
+11:33:09 PM - debug: id00: 000201
+11:33:09 PM - debug: id01: 010211
+11:33:09 PM - debug: ppType: mobile
+11:33:09 PM - debug: person-mobile-ppCode: 0066868135354
+11:33:09 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+11:33:09 PM - debug: id53: 5303764
+11:33:09 PM - debug: amount-len: 06
+11:33:09 PM - debug: id54: 5406105.45
+11:33:09 PM - debug: id58: 5802TH
+11:33:09 PM - debug: Terminal+txnProxyId: EPS-0000000010000000000439
+11:33:09 PM - debug: len_padding: 26
+11:33:09 PM - debug: len_padding: 30
+11:33:09 PM - debug: results: ["c9a6"]:
+11:33:09 PM - debug: id63_crc: C9A6
+11:33:09 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH53037645406105.4562300726EPS-00000000100000000004396304C9A6
+11:33:09 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH53037645406105.4562300726EPS-00000000100000000004396304C9A6
+11:33:09 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+11:33:09 PM - info: ::1 - - [27/Jun/2018:16:33:09 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5416 "-" "PostmanRuntime/7.1.5"
+

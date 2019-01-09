@@ -1,0 +1,1429 @@
+9:20:29 AM - debug: Server is listing on port 4001
+9:20:32 AM - debug: Server is listing on port 4001
+9:20:35 AM - debug: Server is listing on port 4001
+9:20:40 AM - debug: Server is listing on port 4001
+9:20:46 AM - debug: Server is listing on port 4001
+9:21:13 AM - debug: Server is listing on port 4001
+9:21:28 AM - debug: Server is listing on port 4001
+9:25:39 AM - debug:  merchantId=MC0000000059, ref1=OESP0000000000075, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000058, terminalId=TM0000000058, bankCode=SCB, paymethod=ThaiQR
+9:25:39 AM - debug: getMerchant2Pay: MC0000000059
+9:25:39 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, status=active, notifymode=Device, urlhook=http://foo.com, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251], merchantId=MC0000000059, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+9:25:39 AM - debug: store: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=252], storeId=ST0000000058, name=ST0000000058, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+9:25:39 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251
+9:25:39 AM - debug: data.terminalId: TM0000000058
+9:25:39 AM - debug: vMCInfo:
+9:25:39 AM - debug: id00: 000201
+9:25:39 AM - debug: id01: 010211
+9:25:39 AM - debug: ppType: mobile
+9:25:39 AM - debug: person-mobile-ppCode: 0066868135354
+9:25:39 AM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+9:25:39 AM - debug: id53: 5303764
+9:25:39 AM - debug: amount-len: 04
+9:25:39 AM - debug: id54: 540490.5
+9:25:39 AM - debug: id58: 5802TH
+9:25:39 AM - debug: Terminal+txnProxyId: TM00000000580000000000495
+9:25:39 AM - debug: len_padding: 25
+9:25:39 AM - debug: len_padding: 29
+9:25:39 AM - debug: results: ["fd89"]:
+9:25:39 AM - debug: id63_crc: FD89
+9:25:39 AM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000004956304FD89
+9:25:39 AM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000004956304FD89
+9:25:39 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+9:25:39 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:02:25:39 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5490 "-" "axios/0.18.0"
+
+9:33:52 AM - debug:  merchantId=MC0000000059, ref1=OESP0000000000076, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000058, terminalId=TM0000000058, bankCode=SCB, paymethod=ThaiQR
+9:33:52 AM - debug: getMerchant2Pay: MC0000000059
+9:33:52 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, status=active, notifymode=Device, urlhook=http://foo.com, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251], merchantId=MC0000000059, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+9:33:52 AM - debug: store: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=252], storeId=ST0000000058, name=ST0000000058, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+9:33:52 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251
+9:33:52 AM - debug: data.terminalId: TM0000000058
+9:33:52 AM - debug: vMCInfo:
+9:33:52 AM - debug: id00: 000201
+9:33:52 AM - debug: id01: 010211
+9:33:52 AM - debug: ppType: mobile
+9:33:52 AM - debug: person-mobile-ppCode: 0066868135354
+9:33:52 AM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+9:33:52 AM - debug: id53: 5303764
+9:33:52 AM - debug: amount-len: 04
+9:33:52 AM - debug: id54: 540490.5
+9:33:52 AM - debug: id58: 5802TH
+9:33:52 AM - debug: Terminal+txnProxyId: TM00000000580000000000496
+9:33:52 AM - debug: len_padding: 25
+9:33:52 AM - debug: len_padding: 29
+9:33:52 AM - debug: results: ["135b"]:
+9:33:52 AM - debug: id63_crc: 135B
+9:33:52 AM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000004966304135B
+9:33:52 AM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000004966304135B
+9:33:52 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+9:33:52 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:02:33:52 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5214 "-" "axios/0.18.0"
+
+9:40:50 AM - debug:  merchantId=MC0000000059, ref1=OESP0000000000077, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000058, terminalId=TM0000000058, bankCode=SCB, paymethod=ThaiQR
+9:40:50 AM - debug: getMerchant2Pay: MC0000000059
+9:40:50 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, status=active, notifymode=Device, urlhook=http://foo.com, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251], merchantId=MC0000000059, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+9:40:50 AM - debug: store: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=252], storeId=ST0000000058, name=ST0000000058, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+9:40:50 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251
+9:40:50 AM - debug: data.terminalId: TM0000000058
+9:40:50 AM - debug: vMCInfo:
+9:40:50 AM - debug: id00: 000201
+9:40:50 AM - debug: id01: 010211
+9:40:50 AM - debug: ppType: mobile
+9:40:50 AM - debug: person-mobile-ppCode: 0066868135354
+9:40:50 AM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+9:40:50 AM - debug: id53: 5303764
+9:40:50 AM - debug: amount-len: 04
+9:40:50 AM - debug: id54: 540490.5
+9:40:50 AM - debug: id58: 5802TH
+9:40:50 AM - debug: Terminal+txnProxyId: TM00000000580000000000497
+9:40:50 AM - debug: len_padding: 25
+9:40:50 AM - debug: len_padding: 29
+9:40:50 AM - debug: results: ["b90a"]:
+9:40:50 AM - debug: id63_crc: B90A
+9:40:50 AM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000004976304B90A
+9:40:50 AM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000004976304B90A
+9:40:50 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+9:40:50 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:02:40:50 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5438 "-" "axios/0.18.0"
+
+9:45:11 AM - debug: txnProxyId: TM00000000580000000000497
+9:45:11 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+9:45:11 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+9:45:11 AM - debug: merchantId: MC0000000059
+9:45:11 AM - debug: terminalId: TM0000000058
+9:45:11 AM - debug: Test-ret: stutus=true, message=Success
+9:45:11 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:02:45:11 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+9:54:09 AM - debug: Server is listing on port 4001
+10:15:47 AM - debug: Server is listing on port 4001
+10:18:26 AM - debug:  merchantId=MC0000000059, ref1=OESP0000000000078, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000058, terminalId=TM0000000058, bankCode=SCB, paymethod=ThaiQR
+10:18:26 AM - debug: getMerchant2Pay: MC0000000059
+10:18:26 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251], merchantId=MC0000000059, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+10:18:26 AM - debug: store: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=252], storeId=ST0000000058, name=ST0000000058, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+10:18:26 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251
+10:18:26 AM - debug: data.terminalId: TM0000000058
+10:18:26 AM - debug: vMCInfo:
+10:18:26 AM - debug: id00: 000201
+10:18:26 AM - debug: id01: 010211
+10:18:26 AM - debug: ppType: mobile
+10:18:26 AM - debug: person-mobile-ppCode: 0066868135354
+10:18:26 AM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+10:18:26 AM - debug: id53: 5303764
+10:18:26 AM - debug: amount-len: 04
+10:18:26 AM - debug: id54: 540490.5
+10:18:26 AM - debug: id58: 5802TH
+10:18:26 AM - debug: Terminal+txnProxyId: TM00000000580000000000498
+10:18:26 AM - debug: len_padding: 25
+10:18:26 AM - debug: len_padding: 29
+10:18:27 AM - debug: results: ["dcf3"]:
+10:18:27 AM - debug: id63_crc: DCF3
+10:18:27 AM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000004986304DCF3
+10:18:27 AM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000004986304DCF3
+10:18:27 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+10:18:27 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:03:18:27 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5350 "-" "axios/0.18.0"
+
+10:19:16 AM - debug: txnProxyId: TM00000000580000000000498
+10:19:16 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+10:19:16 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+10:19:16 AM - debug: merchantId: MC0000000059
+10:19:16 AM - debug: terminalId: TM0000000058
+10:19:16 AM - debug: Test-ret: stutus=true, message=Success
+10:19:16 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:03:19:16 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+10:27:09 AM - debug: Server is listing on port 4001
+10:27:15 AM - debug: Server is listing on port 4001
+10:27:25 AM - debug: Server is listing on port 4001
+10:27:46 AM - debug: Server is listing on port 4001
+10:28:02 AM - debug: Server is listing on port 4001
+10:28:05 AM - debug: Server is listing on port 4001
+10:29:50 AM - debug: Server is listing on port 4001
+10:29:58 AM - debug: Server is listing on port 4001
+10:30:04 AM - debug: Server is listing on port 4001
+10:30:28 AM - debug:  merchantId=MC0000000059, ref1=OESP0000000000079, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000058, terminalId=TM0000000058, bankCode=SCB, paymethod=ThaiQR
+10:30:28 AM - debug: getMerchant2Pay: MC0000000059
+10:30:28 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251], merchantId=MC0000000059, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+10:30:28 AM - debug: store: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=252], storeId=ST0000000058, name=ST0000000058, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+10:30:28 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251
+10:30:28 AM - debug: data.terminalId: TM0000000058
+10:30:28 AM - debug: vMCInfo:
+10:30:28 AM - debug: id00: 000201
+10:30:28 AM - debug: id01: 010211
+10:30:28 AM - debug: ppType: mobile
+10:30:28 AM - debug: person-mobile-ppCode: 0066868135354
+10:30:28 AM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+10:30:28 AM - debug: id53: 5303764
+10:30:28 AM - debug: amount-len: 04
+10:30:28 AM - debug: id54: 540490.5
+10:30:28 AM - debug: id58: 5802TH
+10:30:28 AM - debug: Terminal+txnProxyId: TM00000000580000000000499
+10:30:28 AM - debug: len_padding: 25
+10:30:28 AM - debug: len_padding: 29
+10:30:28 AM - debug: results: ["76a2"]:
+10:30:28 AM - debug: id63_crc: 76A2
+10:30:28 AM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM00000000580000000000499630476A2
+10:30:28 AM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM00000000580000000000499630476A2
+10:30:28 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+10:30:28 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:03:30:28 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5409 "-" "axios/0.18.0"
+
+10:33:04 AM - debug: Server is listing on port 4001
+10:33:06 AM - debug: Server is listing on port 4001
+10:33:10 AM - debug:  merchantId=MC0000000059, ref1=OESP0000000000080, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000058, terminalId=TM0000000058, bankCode=SCB, paymethod=ThaiQR
+10:33:10 AM - debug: getMerchant2Pay: MC0000000059
+10:33:10 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251], merchantId=MC0000000059, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+10:33:10 AM - debug: store: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=252], storeId=ST0000000058, name=ST0000000058, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+10:33:10 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251
+10:33:10 AM - debug: data.terminalId: TM0000000058
+10:33:10 AM - debug: vMCInfo:
+10:33:10 AM - debug: id00: 000201
+10:33:10 AM - debug: id01: 010211
+10:33:10 AM - debug: ppType: mobile
+10:33:10 AM - debug: person-mobile-ppCode: 0066868135354
+10:33:10 AM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+10:33:10 AM - debug: id53: 5303764
+10:33:10 AM - debug: amount-len: 04
+10:33:10 AM - debug: id54: 540490.5
+10:33:10 AM - debug: id58: 5802TH
+10:33:10 AM - debug: Terminal+txnProxyId: TM00000000580000000000500
+10:33:10 AM - debug: len_padding: 25
+10:33:10 AM - debug: len_padding: 29
+10:33:10 AM - debug: results: ["2e5d"]:
+10:33:10 AM - debug: id63_crc: 2E5D
+10:33:10 AM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000058000000000050063042E5D
+10:33:10 AM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000058000000000050063042E5D
+10:33:11 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+10:33:11 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:03:33:11 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5433 "-" "axios/0.18.0"
+
+10:34:44 AM - debug: txnProxyId: TM00000000580000000000500
+10:34:44 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+10:34:44 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+10:34:44 AM - debug: merchantId: MC0000000059
+10:34:44 AM - debug: terminalId: TM0000000058
+10:34:44 AM - debug: Test-ret: stutus=true, message=Success
+10:34:44 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:03:34:44 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+10:35:28 AM - debug:  merchantId=MC0000000059, ref1=OESP0000000000081, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000058, terminalId=TM0000000058, bankCode=SCB, paymethod=ThaiQR
+10:35:28 AM - debug: getMerchant2Pay: MC0000000059
+10:35:28 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251], merchantId=MC0000000059, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+10:35:28 AM - debug: store: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=252], storeId=ST0000000058, name=ST0000000058, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+10:35:28 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251
+10:35:28 AM - debug: data.terminalId: TM0000000058
+10:35:28 AM - debug: vMCInfo:
+10:35:28 AM - debug: id00: 000201
+10:35:28 AM - debug: id01: 010211
+10:35:28 AM - debug: ppType: mobile
+10:35:28 AM - debug: person-mobile-ppCode: 0066868135354
+10:35:28 AM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+10:35:28 AM - debug: id53: 5303764
+10:35:28 AM - debug: amount-len: 04
+10:35:28 AM - debug: id54: 540490.5
+10:35:28 AM - debug: id58: 5802TH
+10:35:28 AM - debug: Terminal+txnProxyId: TM00000000580000000000501
+10:35:28 AM - debug: len_padding: 25
+10:35:28 AM - debug: len_padding: 29
+10:35:28 AM - debug: results: ["840c"]:
+10:35:28 AM - debug: id63_crc: 840C
+10:35:28 AM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000005016304840C
+10:35:28 AM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000005016304840C
+10:35:28 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+10:35:28 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:03:35:28 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5449 "-" "axios/0.18.0"
+
+10:39:00 AM - debug: txnProxyId: TM00000000580000000000501
+10:39:00 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+10:39:00 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+10:39:00 AM - debug: merchantId: MC0000000059
+10:39:00 AM - debug: terminalId: TM0000000058
+10:39:00 AM - debug: Test-ret: stutus=true, message=Success
+10:39:01 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:03:39:01 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+10:39:22 AM - debug:  merchantId=MC0000000059, ref1=OESP0000000000082, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000058, terminalId=TM0000000058, bankCode=SCB, paymethod=ThaiQR
+10:39:22 AM - debug: getMerchant2Pay: MC0000000059
+10:39:22 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251], merchantId=MC0000000059, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+10:39:22 AM - debug: store: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=252], storeId=ST0000000058, name=ST0000000058, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+10:39:22 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251
+10:39:22 AM - debug: data.terminalId: TM0000000058
+10:39:22 AM - debug: vMCInfo:
+10:39:22 AM - debug: id00: 000201
+10:39:22 AM - debug: id01: 010211
+10:39:22 AM - debug: ppType: mobile
+10:39:22 AM - debug: person-mobile-ppCode: 0066868135354
+10:39:22 AM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+10:39:22 AM - debug: id53: 5303764
+10:39:22 AM - debug: amount-len: 04
+10:39:22 AM - debug: id54: 540490.5
+10:39:22 AM - debug: id58: 5802TH
+10:39:22 AM - debug: Terminal+txnProxyId: TM00000000580000000000502
+10:39:22 AM - debug: len_padding: 25
+10:39:22 AM - debug: len_padding: 29
+10:39:22 AM - debug: results: ["6ade"]:
+10:39:22 AM - debug: id63_crc: 6ADE
+10:39:22 AM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000058000000000050263046ADE
+10:39:22 AM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000058000000000050263046ADE
+10:39:22 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+10:39:22 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:03:39:22 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5381 "-" "axios/0.18.0"
+
+10:40:16 AM - debug: txnProxyId: TM00000000580000000000502
+10:40:16 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+10:40:16 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+10:40:16 AM - debug: merchantId: MC0000000059
+10:40:16 AM - debug: terminalId: TM0000000058
+10:40:16 AM - debug: Test-ret: stutus=true, message=Success
+10:40:16 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:03:40:16 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+11:04:02 AM - debug:  merchantId=MC0000000059, ref1=OESP0000000000083, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000058, terminalId=TM0000000058, bankCode=SCB, paymethod=ThaiQR
+11:04:02 AM - debug: getMerchant2Pay: MC0000000059
+11:04:02 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251], merchantId=MC0000000059, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+11:04:02 AM - debug: store: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=252], storeId=ST0000000058, name=ST0000000058, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+11:04:02 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251
+11:04:02 AM - debug: data.terminalId: TM0000000058
+11:04:02 AM - debug: vMCInfo:
+11:04:02 AM - debug: id00: 000201
+11:04:02 AM - debug: id01: 010211
+11:04:02 AM - debug: ppType: mobile
+11:04:02 AM - debug: person-mobile-ppCode: 0066868135354
+11:04:02 AM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+11:04:02 AM - debug: id53: 5303764
+11:04:02 AM - debug: amount-len: 04
+11:04:02 AM - debug: id54: 540490.5
+11:04:02 AM - debug: id58: 5802TH
+11:04:02 AM - debug: Terminal+txnProxyId: TM00000000580000000000503
+11:04:02 AM - debug: len_padding: 25
+11:04:02 AM - debug: len_padding: 29
+11:04:02 AM - debug: results: ["c08f"]:
+11:04:02 AM - debug: id63_crc: C08F
+11:04:02 AM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000005036304C08F
+11:04:02 AM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000005036304C08F
+11:04:02 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+11:04:02 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:04:02 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5269 "-" "axios/0.18.0"
+
+11:06:02 AM - debug: txnProxyId: TM00000000580000000000503
+11:06:02 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+11:06:02 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+11:06:02 AM - debug: merchantId: MC0000000059
+11:06:02 AM - debug: terminalId: TM0000000058
+11:06:02 AM - debug: Test-ret: stutus=true, message=Success
+11:06:02 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:06:02 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+11:08:21 AM - debug: txnProxyId: TM00000000580000000000503
+11:08:21 AM - info: Not match any qr payment request as before
+11:08:21 AM - debug: Test-ret: stutus=true, message=Not match any qr payment request as before
+11:08:21 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:08:21 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 70 "-" "axios/0.18.0"
+
+11:08:25 AM - debug:  merchantId=MC0000000059, ref1=OESP0000000000084, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000058, terminalId=TM0000000058, bankCode=SCB, paymethod=ThaiQR
+11:08:25 AM - debug: getMerchant2Pay: MC0000000059
+11:08:25 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251], merchantId=MC0000000059, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+11:08:25 AM - debug: store: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=252], storeId=ST0000000058, name=ST0000000058, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+11:08:25 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251
+11:08:25 AM - debug: data.terminalId: TM0000000058
+11:08:25 AM - debug: vMCInfo:
+11:08:25 AM - debug: id00: 000201
+11:08:25 AM - debug: id01: 010211
+11:08:25 AM - debug: ppType: mobile
+11:08:25 AM - debug: person-mobile-ppCode: 0066868135354
+11:08:25 AM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+11:08:25 AM - debug: id53: 5303764
+11:08:25 AM - debug: amount-len: 04
+11:08:25 AM - debug: id54: 540490.5
+11:08:25 AM - debug: id58: 5802TH
+11:08:25 AM - debug: Terminal+txnProxyId: TM00000000580000000000504
+11:08:25 AM - debug: len_padding: 25
+11:08:25 AM - debug: len_padding: 29
+11:08:26 AM - debug: results: ["a75b"]:
+11:08:26 AM - debug: id63_crc: A75B
+11:08:26 AM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000005046304A75B
+11:08:26 AM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000005046304A75B
+11:08:26 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+11:08:26 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:08:26 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5261 "-" "axios/0.18.0"
+
+11:08:40 AM - debug: txnProxyId: TM00000000580000000000504
+11:08:40 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+11:08:40 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+11:08:40 AM - debug: merchantId: MC0000000059
+11:08:40 AM - debug: terminalId: TM0000000058
+11:08:40 AM - debug: Test-ret: stutus=true, message=Success
+11:08:40 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:08:40 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+11:09:40 AM - debug:  merchantId=MC0000000059, ref1=OESP0000000000085, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000058, terminalId=TM0000000058, bankCode=SCB, paymethod=ThaiQR
+11:09:40 AM - debug: getMerchant2Pay: MC0000000059
+11:09:40 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251], merchantId=MC0000000059, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+11:09:40 AM - debug: store: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=252], storeId=ST0000000058, name=ST0000000058, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+11:09:40 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251
+11:09:40 AM - debug: data.terminalId: TM0000000058
+11:09:40 AM - debug: vMCInfo:
+11:09:40 AM - debug: id00: 000201
+11:09:40 AM - debug: id01: 010211
+11:09:40 AM - debug: ppType: mobile
+11:09:40 AM - debug: person-mobile-ppCode: 0066868135354
+11:09:40 AM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+11:09:40 AM - debug: id53: 5303764
+11:09:40 AM - debug: amount-len: 04
+11:09:40 AM - debug: id54: 540490.5
+11:09:40 AM - debug: id58: 5802TH
+11:09:40 AM - debug: Terminal+txnProxyId: TM00000000580000000000505
+11:09:40 AM - debug: len_padding: 25
+11:09:40 AM - debug: len_padding: 29
+11:09:40 AM - debug: results: ["d0a"]:
+11:09:40 AM - debug: id63_crc: 0D0A
+11:09:40 AM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000058000000000050563040D0A
+11:09:40 AM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000058000000000050563040D0A
+11:09:40 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+11:09:41 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:09:41 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5417 "-" "axios/0.18.0"
+
+11:09:48 AM - debug: txnProxyId: TM00000000580000000000505
+11:09:48 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+11:09:48 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+11:09:48 AM - debug: merchantId: MC0000000059
+11:09:48 AM - debug: terminalId: TM0000000058
+11:09:48 AM - debug: Test-ret: stutus=true, message=Success
+11:09:48 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:09:48 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+11:11:17 AM - debug: txnProxyId: TM00000000580000000000505
+11:11:17 AM - info: Not match any qr payment request as before
+11:11:17 AM - debug: Test-ret: stutus=true, message=Not match any qr payment request as before
+11:11:17 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:11:17 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 70 "-" "axios/0.18.0"
+
+11:11:20 AM - debug:  merchantId=MC0000000059, ref1=OESP0000000000086, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000058, terminalId=TM0000000058, bankCode=SCB, paymethod=ThaiQR
+11:11:20 AM - debug: getMerchant2Pay: MC0000000059
+11:11:20 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251], merchantId=MC0000000059, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+11:11:20 AM - debug: store: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=252], storeId=ST0000000058, name=ST0000000058, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+11:11:20 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251
+11:11:20 AM - debug: data.terminalId: TM0000000058
+11:11:20 AM - debug: vMCInfo:
+11:11:20 AM - debug: id00: 000201
+11:11:20 AM - debug: id01: 010211
+11:11:20 AM - debug: ppType: mobile
+11:11:20 AM - debug: person-mobile-ppCode: 0066868135354
+11:11:20 AM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+11:11:20 AM - debug: id53: 5303764
+11:11:20 AM - debug: amount-len: 04
+11:11:20 AM - debug: id54: 540490.5
+11:11:20 AM - debug: id58: 5802TH
+11:11:20 AM - debug: Terminal+txnProxyId: TM00000000580000000000506
+11:11:20 AM - debug: len_padding: 25
+11:11:20 AM - debug: len_padding: 29
+11:11:20 AM - debug: results: ["e3d8"]:
+11:11:20 AM - debug: id63_crc: E3D8
+11:11:20 AM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000005066304E3D8
+11:11:20 AM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000005800000000005066304E3D8
+11:11:20 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+11:11:20 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:11:20 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5297 "-" "axios/0.18.0"
+
+11:11:28 AM - debug: txnProxyId: TM00000000580000000000506
+11:11:28 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+11:11:28 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+11:11:28 AM - debug: merchantId: MC0000000059
+11:11:28 AM - debug: terminalId: TM0000000058
+11:11:28 AM - debug: Test-ret: stutus=true, message=Success
+11:11:28 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:11:28 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+11:14:43 AM - debug:  merchantId=MC0000000059, ref1=OESP0000000000087, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000058, terminalId=TM0000000058, bankCode=SCB, paymethod=ThaiQR
+11:14:43 AM - debug: getMerchant2Pay: MC0000000059
+11:14:43 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251], merchantId=MC0000000059, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+11:14:43 AM - debug: store: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=252], storeId=ST0000000058, name=ST0000000058, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=250, updatedAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), createdAt=Sat Jul 07 2018 22:36:18 GMT+0700 (+07), __v=0
+11:14:43 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=64, 2=221, 3=242, 4=102, 5=213, 6=171, 7=10, 8=9, 9=134, 10=14, 11=251
+11:14:43 AM - debug: data.terminalId: TM0000000058
+11:14:43 AM - debug: vMCInfo:
+11:14:43 AM - debug: id00: 000201
+11:14:43 AM - debug: id01: 010211
+11:14:43 AM - debug: ppType: mobile
+11:14:43 AM - debug: person-mobile-ppCode: 0066868135354
+11:14:43 AM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+11:14:43 AM - debug: id53: 5303764
+11:14:43 AM - debug: amount-len: 04
+11:14:43 AM - debug: id54: 540490.5
+11:14:43 AM - debug: id58: 5802TH
+11:14:43 AM - debug: Terminal+txnProxyId: TM00000000580000000000507
+11:14:43 AM - debug: len_padding: 25
+11:14:43 AM - debug: len_padding: 29
+11:14:43 AM - debug: results: ["4989"]:
+11:14:43 AM - debug: id63_crc: 4989
+11:14:43 AM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000058000000000050763044989
+11:14:43 AM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000058000000000050763044989
+11:14:43 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+11:14:43 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:14:43 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5409 "-" "axios/0.18.0"
+
+11:14:51 AM - debug: txnProxyId: TM00000000580000000000507
+11:14:51 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+11:14:51 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+11:14:51 AM - debug: merchantId: MC0000000059
+11:14:51 AM - debug: terminalId: TM0000000058
+11:14:51 AM - debug: Test-ret: stutus=true, message=Success
+11:14:51 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:14:51 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+11:31:03 AM - debug:  merchantId=MC0000000060, ref1=OESP0000000000088, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000059, terminalId=TM0000000059, bankCode=SCB, paymethod=ThaiQR
+11:31:03 AM - debug: getMerchant2Pay: MC0000000060
+11:31:03 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=130, status=active, notifymode=Both, urlhook=http://foo.com, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=131], merchantId=MC0000000060, name=p.auoychai2@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), createdAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), __v=0
+11:31:03 AM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=131, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=132], storeId=ST0000000059, name=ST0000000059, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=130, updatedAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), createdAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), __v=0
+11:31:03 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=131
+11:31:03 AM - debug: data.terminalId: TM0000000059
+11:31:03 AM - debug: vMCInfo:
+11:31:03 AM - debug: id00: 000201
+11:31:03 AM - debug: id01: 010211
+11:31:03 AM - debug: v_aid: 0016A000000677010112
+11:31:03 AM - debug: v_biller_id:: 0115099400015855602
+11:31:03 AM - debug: ref1: OESP0000000000088
+11:31:03 AM - debug: ref2: NA
+11:31:03 AM - debug: len_padding: 17
+11:31:03 AM - debug: len_padding: 02
+11:31:03 AM - debug: len_padding: 60
+11:31:03 AM - debug: len_padding: 00
+11:31:03 AM - debug: id59: 5900undefined
+11:31:03 AM - debug: tag39: 30600016A00000067701011201150994000158556020217OESP0000000000088
+11:31:03 AM - debug: mc-T29-T30: 30600016A00000067701011201150994000158556020217OESP0000000000088
+11:31:03 AM - debug: id53: 5303764
+11:31:03 AM - debug: amount-len: 04
+11:31:03 AM - debug: id54: 540490.5
+11:31:03 AM - debug: id58: 5802TH
+11:31:03 AM - debug: Terminal+txnProxyId: TM00000000590000000000508
+11:31:03 AM - debug: len_padding: 25
+11:31:03 AM - debug: len_padding: 29
+11:31:03 AM - debug: results: ["2478"]:
+11:31:03 AM - debug: id63_crc: 2478
+11:31:03 AM - debug: id63_crc_upper-case: 00020101021130600016A00000067701011201150994000158556020217OESP00000000000885802TH5303764540490.562290725TM0000000059000000000050863042478
+11:31:03 AM - debug: qtTxt-genQRCode: 00020101021130600016A00000067701011201150994000158556020217OESP00000000000885802TH5303764540490.562290725TM0000000059000000000050863042478
+11:31:03 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+11:31:03 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:31:03 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5124 "-" "axios/0.18.0"
+
+11:36:04 AM - debug: txnProxyId: TM00000000590000000000508
+11:36:04 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+11:36:04 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+11:36:04 AM - debug: merchantId: MC0000000060
+11:36:04 AM - debug: terminalId: TM0000000059
+11:36:04 AM - debug: Test-ret: stutus=true, message=Success
+11:36:04 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:36:04 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+11:38:35 AM - debug:  merchantId=MC0000000060, ref1=OESP0000000000089, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000059, terminalId=TM0000000059, bankCode=SCB, paymethod=ThaiQR
+11:38:35 AM - debug: getMerchant2Pay: MC0000000060
+11:38:35 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=130, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=131], merchantId=MC0000000060, name=p.auoychai2@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), createdAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), __v=0
+11:38:35 AM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=131, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=132], storeId=ST0000000059, name=ST0000000059, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=130, updatedAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), createdAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), __v=0
+11:38:35 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=131
+11:38:35 AM - debug: data.terminalId: TM0000000059
+11:38:35 AM - debug: vMCInfo:
+11:38:35 AM - debug: id00: 000201
+11:38:35 AM - debug: id01: 010211
+11:38:35 AM - debug: v_aid: 0016A000000677010112
+11:38:35 AM - debug: v_biller_id:: 0115099400015855602
+11:38:35 AM - debug: ref1: OESP0000000000089
+11:38:35 AM - debug: ref2: NA
+11:38:35 AM - debug: len_padding: 17
+11:38:35 AM - debug: len_padding: 02
+11:38:35 AM - debug: len_padding: 60
+11:38:35 AM - debug: len_padding: 00
+11:38:35 AM - debug: id59: 5900undefined
+11:38:35 AM - debug: tag39: 30600016A00000067701011201150994000158556020217OESP0000000000089
+11:38:35 AM - debug: mc-T29-T30: 30600016A00000067701011201150994000158556020217OESP0000000000089
+11:38:35 AM - debug: id53: 5303764
+11:38:35 AM - debug: amount-len: 04
+11:38:35 AM - debug: id54: 540490.5
+11:38:35 AM - debug: id58: 5802TH
+11:38:35 AM - debug: Terminal+txnProxyId: TM00000000590000000000509
+11:38:35 AM - debug: len_padding: 25
+11:38:35 AM - debug: len_padding: 29
+11:38:35 AM - debug: results: ["2b77"]:
+11:38:35 AM - debug: id63_crc: 2B77
+11:38:35 AM - debug: id63_crc_upper-case: 00020101021130600016A00000067701011201150994000158556020217OESP00000000000895802TH5303764540490.562290725TM0000000059000000000050963042B77
+11:38:35 AM - debug: qtTxt-genQRCode: 00020101021130600016A00000067701011201150994000158556020217OESP00000000000895802TH5303764540490.562290725TM0000000059000000000050963042B77
+11:38:35 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+11:38:35 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:38:35 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5544 "-" "axios/0.18.0"
+
+11:39:02 AM - debug: txnProxyId: TM00000000590000000000509
+11:39:02 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+11:39:02 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+11:39:02 AM - debug: merchantId: MC0000000060
+11:39:02 AM - debug: terminalId: TM0000000059
+11:39:02 AM - debug: Test-ret: stutus=true, message=Success
+11:39:02 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:39:02 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+11:50:15 AM - debug:  merchantId=MC0000000060, ref1=OESP0000000000090, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000059, terminalId=TM0000000059, bankCode=SCB, paymethod=ThaiQR
+11:50:15 AM - debug: getMerchant2Pay: MC0000000060
+11:50:15 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=130, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaidnotify, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=131], merchantId=MC0000000060, name=p.auoychai2@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), createdAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), __v=0
+11:50:15 AM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=131, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=132], storeId=ST0000000059, name=ST0000000059, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=130, updatedAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), createdAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), __v=0
+11:50:15 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=131
+11:50:15 AM - debug: data.terminalId: TM0000000059
+11:50:15 AM - debug: vMCInfo:
+11:50:15 AM - debug: id00: 000201
+11:50:15 AM - debug: id01: 010211
+11:50:15 AM - debug: v_aid: 0016A000000677010112
+11:50:15 AM - debug: v_biller_id:: 0115099400015855602
+11:50:15 AM - debug: ref1: OESP0000000000090
+11:50:15 AM - debug: ref2: NA
+11:50:15 AM - debug: len_padding: 17
+11:50:15 AM - debug: len_padding: 02
+11:50:15 AM - debug: len_padding: 60
+11:50:15 AM - debug: len_padding: 00
+11:50:15 AM - debug: id59: 5900undefined
+11:50:15 AM - debug: tag39: 30600016A00000067701011201150994000158556020217OESP0000000000090
+11:50:15 AM - debug: mc-T29-T30: 30600016A00000067701011201150994000158556020217OESP0000000000090
+11:50:15 AM - debug: id53: 5303764
+11:50:15 AM - debug: amount-len: 04
+11:50:15 AM - debug: id54: 540490.5
+11:50:15 AM - debug: id58: 5802TH
+11:50:15 AM - debug: Terminal+txnProxyId: TM00000000590000000000510
+11:50:15 AM - debug: len_padding: 25
+11:50:15 AM - debug: len_padding: 29
+11:50:15 AM - debug: results: ["a2ef"]:
+11:50:15 AM - debug: id63_crc: A2EF
+11:50:15 AM - debug: id63_crc_upper-case: 00020101021130600016A00000067701011201150994000158556020217OESP00000000000905802TH5303764540490.562290725TM000000005900000000005106304A2EF
+11:50:15 AM - debug: qtTxt-genQRCode: 00020101021130600016A00000067701011201150994000158556020217OESP00000000000905802TH5303764540490.562290725TM000000005900000000005106304A2EF
+11:50:15 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+11:50:15 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:50:15 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5540 "-" "axios/0.18.0"
+
+11:50:51 AM - debug: txnProxyId: TM00000000590000000000510
+11:50:51 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+11:50:51 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+11:50:51 AM - debug: merchantId: MC0000000060
+11:50:51 AM - debug: terminalId: TM0000000059
+11:50:51 AM - debug: Test-ret: stutus=true, message=Success
+11:50:51 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:50:51 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+11:53:15 AM - debug:  merchantId=MC0000000060, ref1=OESP0000000000091, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000059, terminalId=TM0000000059, bankCode=SCB, paymethod=ThaiQR
+11:53:15 AM - debug: getMerchant2Pay: MC0000000060
+11:53:15 AM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=130, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaidnotify, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=131], merchantId=MC0000000060, name=p.auoychai2@gmail.com, address=defaul-address, tel=0868135354, user=null, updatedAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), createdAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), __v=0
+11:53:15 AM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=131, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=132], storeId=ST0000000059, name=ST0000000059, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=130, updatedAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), createdAt=Sun Jul 08 2018 11:26:38 GMT+0700 (+07), __v=0
+11:53:15 AM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=146, 3=126, 4=12, 5=146, 6=10, 7=27, 8=135, 9=127, 10=120, 11=131
+11:53:15 AM - debug: data.terminalId: TM0000000059
+11:53:15 AM - debug: vMCInfo:
+11:53:15 AM - debug: id00: 000201
+11:53:15 AM - debug: id01: 010211
+11:53:15 AM - debug: v_aid: 0016A000000677010112
+11:53:15 AM - debug: v_biller_id:: 0115099400015855602
+11:53:15 AM - debug: ref1: OESP0000000000091
+11:53:15 AM - debug: ref2: NA
+11:53:15 AM - debug: len_padding: 17
+11:53:15 AM - debug: len_padding: 02
+11:53:15 AM - debug: len_padding: 60
+11:53:15 AM - debug: len_padding: 00
+11:53:15 AM - debug: id59: 5900undefined
+11:53:15 AM - debug: tag39: 30600016A00000067701011201150994000158556020217OESP0000000000091
+11:53:15 AM - debug: mc-T29-T30: 30600016A00000067701011201150994000158556020217OESP0000000000091
+11:53:15 AM - debug: id53: 5303764
+11:53:15 AM - debug: amount-len: 04
+11:53:15 AM - debug: id54: 540490.5
+11:53:15 AM - debug: id58: 5802TH
+11:53:15 AM - debug: Terminal+txnProxyId: TM00000000590000000000511
+11:53:15 AM - debug: len_padding: 25
+11:53:15 AM - debug: len_padding: 29
+11:53:15 AM - debug: results: ["ade0"]:
+11:53:15 AM - debug: id63_crc: ADE0
+11:53:15 AM - debug: id63_crc_upper-case: 00020101021130600016A00000067701011201150994000158556020217OESP00000000000915802TH5303764540490.562290725TM000000005900000000005116304ADE0
+11:53:15 AM - debug: qtTxt-genQRCode: 00020101021130600016A00000067701011201150994000158556020217OESP00000000000915802TH5303764540490.562290725TM000000005900000000005116304ADE0
+11:53:15 AM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+11:53:15 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:53:15 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5420 "-" "axios/0.18.0"
+
+11:53:29 AM - debug: txnProxyId: TM00000000590000000000511
+11:53:29 AM - debug: isDT: 2018-06-25T10:30:10.000Z
+11:53:29 AM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+11:53:29 AM - debug: merchantId: MC0000000060
+11:53:29 AM - debug: terminalId: TM0000000059
+11:53:29 AM - debug: Test-ret: stutus=true, message=Success
+11:53:29 AM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:04:53:29 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+1:34:27 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000001, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+1:34:27 PM - debug: getMerchant2Pay: MC0000000002
+1:34:27 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+1:34:27 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+1:34:27 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+1:34:27 PM - debug: data.terminalId: TM0000000002
+1:34:27 PM - debug: vMCInfo:
+1:34:27 PM - debug: id00: 000201
+1:34:27 PM - debug: id01: 010211
+1:34:27 PM - debug: ppType: mobile
+1:34:27 PM - debug: person-mobile-ppCode: 0066868135354
+1:34:27 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+1:34:27 PM - debug: id53: 5303764
+1:34:27 PM - debug: amount-len: 04
+1:34:27 PM - debug: id54: 540490.5
+1:34:27 PM - debug: id58: 5802TH
+1:34:27 PM - debug: Terminal+txnProxyId: TM00000000020000000000512
+1:34:27 PM - debug: len_padding: 25
+1:34:27 PM - debug: len_padding: 29
+1:34:27 PM - debug: results: ["b852"]:
+1:34:27 PM - debug: id63_crc: B852
+1:34:27 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005126304B852
+1:34:27 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005126304B852
+1:34:27 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+1:34:27 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:06:34:27 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5369 "-" "axios/0.18.0"
+
+1:34:41 PM - debug: txnProxyId: TM00000000020000000000512
+1:34:41 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+1:34:41 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+1:34:41 PM - debug: merchantId: MC0000000002
+1:34:41 PM - debug: terminalId: TM0000000002
+1:34:41 PM - debug: Test-ret: stutus=true, message=Success
+1:34:41 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:06:34:41 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+1:37:10 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000002, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+1:37:10 PM - debug: getMerchant2Pay: MC0000000002
+1:37:10 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaidnotify, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+1:37:10 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+1:37:10 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+1:37:10 PM - debug: data.terminalId: TM0000000002
+1:37:10 PM - debug: vMCInfo:
+1:37:10 PM - debug: id00: 000201
+1:37:10 PM - debug: id01: 010211
+1:37:10 PM - debug: ppType: mobile
+1:37:10 PM - debug: person-mobile-ppCode: 0066868135354
+1:37:10 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+1:37:10 PM - debug: id53: 5303764
+1:37:10 PM - debug: amount-len: 04
+1:37:10 PM - debug: id54: 540490.5
+1:37:10 PM - debug: id58: 5802TH
+1:37:10 PM - debug: Terminal+txnProxyId: TM00000000020000000000513
+1:37:10 PM - debug: len_padding: 25
+1:37:10 PM - debug: len_padding: 29
+1:37:10 PM - debug: results: ["1203"]:
+1:37:10 PM - debug: id63_crc: 1203
+1:37:10 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000051363041203
+1:37:10 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000051363041203
+1:37:10 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+1:37:10 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:06:37:10 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5417 "-" "axios/0.18.0"
+
+1:37:18 PM - debug: txnProxyId: TM00000000020000000000513
+1:37:18 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+1:37:18 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+1:37:18 PM - debug: merchantId: MC0000000002
+1:37:18 PM - debug: terminalId: TM0000000002
+1:37:18 PM - debug: Test-ret: stutus=true, message=Success
+1:37:18 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:06:37:18 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+1:49:17 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000003, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+1:49:17 PM - debug: getMerchant2Pay: MC0000000002
+1:49:17 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaidnotify, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+1:49:17 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+1:49:17 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+1:49:17 PM - debug: data.terminalId: TM0000000002
+1:49:17 PM - debug: vMCInfo:
+1:49:17 PM - debug: id00: 000201
+1:49:17 PM - debug: id01: 010211
+1:49:17 PM - debug: ppType: mobile
+1:49:17 PM - debug: person-mobile-ppCode: 0066868135354
+1:49:17 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+1:49:17 PM - debug: id53: 5303764
+1:49:17 PM - debug: amount-len: 04
+1:49:17 PM - debug: id54: 540490.5
+1:49:17 PM - debug: id58: 5802TH
+1:49:17 PM - debug: Terminal+txnProxyId: TM00000000020000000000514
+1:49:17 PM - debug: len_padding: 25
+1:49:17 PM - debug: len_padding: 29
+1:49:17 PM - debug: results: ["75d7"]:
+1:49:17 PM - debug: id63_crc: 75D7
+1:49:17 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM00000000020000000000514630475D7
+1:49:17 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM00000000020000000000514630475D7
+1:49:17 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+1:49:17 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:06:49:17 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5385 "-" "axios/0.18.0"
+
+1:49:34 PM - debug: txnProxyId: TM00000000020000000000514
+1:49:34 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+1:49:34 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+1:49:34 PM - debug: merchantId: MC0000000002
+1:49:34 PM - debug: terminalId: TM0000000002
+1:49:34 PM - debug: Test-ret: stutus=true, message=Success
+1:49:34 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:06:49:34 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+1:58:40 PM - debug: Server is listing on port 4001
+1:59:05 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000004, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+1:59:05 PM - debug: getMerchant2Pay: MC0000000002
+1:59:05 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaidnotify, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+1:59:05 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+1:59:05 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+1:59:05 PM - debug: data.terminalId: TM0000000002
+1:59:05 PM - debug: vMCInfo:
+1:59:05 PM - debug: id00: 000201
+1:59:05 PM - debug: id01: 010211
+1:59:05 PM - debug: ppType: mobile
+1:59:05 PM - debug: person-mobile-ppCode: 0066868135354
+1:59:05 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+1:59:05 PM - debug: id53: 5303764
+1:59:05 PM - debug: amount-len: 04
+1:59:05 PM - debug: id54: 540490.5
+1:59:05 PM - debug: id58: 5802TH
+1:59:05 PM - debug: Terminal+txnProxyId: TM00000000020000000000515
+1:59:05 PM - debug: len_padding: 25
+1:59:05 PM - debug: len_padding: 29
+1:59:06 PM - debug: results: ["df86"]:
+1:59:06 PM - debug: id63_crc: DF86
+1:59:06 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005156304DF86
+1:59:06 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005156304DF86
+1:59:06 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+1:59:06 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:06:59:06 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5409 "-" "axios/0.18.0"
+
+1:59:16 PM - debug: txnProxyId: TM00000000020000000000515
+1:59:16 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+1:59:16 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+1:59:16 PM - debug: merchantId: MC0000000002
+1:59:16 PM - debug: terminalId: TM0000000002
+1:59:16 PM - debug: Test-ret: stutus=true, message=Success
+1:59:16 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:06:59:16 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+1:59:52 PM - debug: Server is listing on port 4001
+2:00:56 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000005, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:00:56 PM - debug: getMerchant2Pay: MC0000000002
+2:00:56 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaidnotify, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:00:56 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:00:56 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:00:56 PM - debug: data.terminalId: TM0000000002
+2:00:56 PM - debug: vMCInfo:
+2:00:56 PM - debug: id00: 000201
+2:00:56 PM - debug: id01: 010211
+2:00:56 PM - debug: ppType: mobile
+2:00:56 PM - debug: person-mobile-ppCode: 0066868135354
+2:00:56 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:00:56 PM - debug: id53: 5303764
+2:00:56 PM - debug: amount-len: 04
+2:00:56 PM - debug: id54: 540490.5
+2:00:56 PM - debug: id58: 5802TH
+2:00:56 PM - debug: Terminal+txnProxyId: TM00000000020000000000516
+2:00:56 PM - debug: len_padding: 25
+2:00:56 PM - debug: len_padding: 29
+2:00:56 PM - debug: results: ["3154"]:
+2:00:56 PM - debug: id63_crc: 3154
+2:00:56 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000051663043154
+2:00:56 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000051663043154
+2:00:57 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+2:00:57 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:00:57 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5433 "-" "axios/0.18.0"
+
+2:01:10 PM - debug: txnProxyId: TM00000000020000000000516
+2:01:10 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+2:01:10 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+2:01:10 PM - debug: merchantId: MC0000000002
+2:01:10 PM - debug: terminalId: TM0000000002
+2:01:10 PM - debug: Test-ret: stutus=true, message=Success
+2:01:10 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:01:10 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+2:02:41 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000006, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:02:41 PM - debug: getMerchant2Pay: MC0000000002
+2:02:41 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaidnotify, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:02:41 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:02:41 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:02:41 PM - debug: data.terminalId: TM0000000002
+2:02:41 PM - debug: vMCInfo:
+2:02:41 PM - debug: id00: 000201
+2:02:41 PM - debug: id01: 010211
+2:02:41 PM - debug: ppType: mobile
+2:02:41 PM - debug: person-mobile-ppCode: 0066868135354
+2:02:41 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:02:41 PM - debug: id53: 5303764
+2:02:41 PM - debug: amount-len: 04
+2:02:41 PM - debug: id54: 540490.5
+2:02:41 PM - debug: id58: 5802TH
+2:02:41 PM - debug: Terminal+txnProxyId: TM00000000020000000000517
+2:02:41 PM - debug: len_padding: 25
+2:02:41 PM - debug: len_padding: 29
+2:02:41 PM - debug: results: ["9b05"]:
+2:02:41 PM - debug: id63_crc: 9B05
+2:02:41 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000051763049B05
+2:02:41 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000051763049B05
+2:02:42 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+2:02:42 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:02:42 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5261 "-" "axios/0.18.0"
+
+2:02:48 PM - debug: txnProxyId: TM00000000020000000000517
+2:02:48 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+2:02:48 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+2:02:48 PM - debug: merchantId: MC0000000002
+2:02:48 PM - debug: terminalId: TM0000000002
+2:02:48 PM - debug: Test-ret: stutus=true, message=Success
+2:02:48 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:02:48 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+2:03:56 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000007, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:03:56 PM - debug: getMerchant2Pay: MC0000000002
+2:03:56 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaidnotify, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:03:56 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:03:56 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:03:56 PM - debug: data.terminalId: TM0000000002
+2:03:56 PM - debug: vMCInfo:
+2:03:56 PM - debug: id00: 000201
+2:03:56 PM - debug: id01: 010211
+2:03:56 PM - debug: ppType: mobile
+2:03:56 PM - debug: person-mobile-ppCode: 0066868135354
+2:03:56 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:03:56 PM - debug: id53: 5303764
+2:03:56 PM - debug: amount-len: 04
+2:03:56 PM - debug: id54: 540490.5
+2:03:56 PM - debug: id58: 5802TH
+2:03:56 PM - debug: Terminal+txnProxyId: TM00000000020000000000518
+2:03:56 PM - debug: len_padding: 25
+2:03:56 PM - debug: len_padding: 29
+2:03:56 PM - debug: results: ["fefc"]:
+2:03:56 PM - debug: id63_crc: FEFC
+2:03:56 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005186304FEFC
+2:03:56 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005186304FEFC
+2:03:57 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+2:03:57 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:03:57 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5289 "-" "axios/0.18.0"
+
+2:04:06 PM - debug: txnProxyId: TM00000000020000000000518
+2:04:06 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+2:04:06 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+2:04:06 PM - debug: merchantId: MC0000000002
+2:04:06 PM - debug: terminalId: TM0000000002
+2:04:06 PM - debug: Test-ret: stutus=true, message=Success
+2:04:06 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:04:06 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+2:05:14 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000008, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:05:14 PM - debug: getMerchant2Pay: MC0000000002
+2:05:14 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaidnotify, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:05:14 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:05:14 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:05:14 PM - debug: data.terminalId: TM0000000002
+2:05:14 PM - debug: vMCInfo:
+2:05:14 PM - debug: id00: 000201
+2:05:14 PM - debug: id01: 010211
+2:05:14 PM - debug: ppType: mobile
+2:05:14 PM - debug: person-mobile-ppCode: 0066868135354
+2:05:14 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:05:14 PM - debug: id53: 5303764
+2:05:14 PM - debug: amount-len: 04
+2:05:14 PM - debug: id54: 540490.5
+2:05:14 PM - debug: id58: 5802TH
+2:05:14 PM - debug: Terminal+txnProxyId: TM00000000020000000000519
+2:05:14 PM - debug: len_padding: 25
+2:05:14 PM - debug: len_padding: 29
+2:05:14 PM - debug: results: ["54ad"]:
+2:05:14 PM - debug: id63_crc: 54AD
+2:05:14 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM00000000020000000000519630454AD
+2:05:14 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM00000000020000000000519630454AD
+2:05:14 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+2:05:14 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:05:14 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5281 "-" "axios/0.18.0"
+
+2:05:21 PM - debug: txnProxyId: TM00000000020000000000519
+2:05:21 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+2:05:21 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+2:05:21 PM - debug: merchantId: MC0000000002
+2:05:21 PM - debug: terminalId: TM0000000002
+2:05:21 PM - debug: Test-ret: stutus=true, message=Success
+2:05:21 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:05:21 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+2:07:04 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000009, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:07:04 PM - debug: getMerchant2Pay: MC0000000002
+2:07:04 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaidnotify, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:07:04 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:07:04 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:07:04 PM - debug: data.terminalId: TM0000000002
+2:07:04 PM - debug: vMCInfo:
+2:07:04 PM - debug: id00: 000201
+2:07:04 PM - debug: id01: 010211
+2:07:04 PM - debug: ppType: mobile
+2:07:04 PM - debug: person-mobile-ppCode: 0066868135354
+2:07:04 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:07:04 PM - debug: id53: 5303764
+2:07:04 PM - debug: amount-len: 04
+2:07:04 PM - debug: id54: 540490.5
+2:07:04 PM - debug: id58: 5802TH
+2:07:04 PM - debug: Terminal+txnProxyId: TM00000000020000000000520
+2:07:04 PM - debug: len_padding: 25
+2:07:04 PM - debug: len_padding: 29
+2:07:04 PM - debug: results: ["3231"]:
+2:07:04 PM - debug: id63_crc: 3231
+2:07:04 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000052063043231
+2:07:04 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000052063043231
+2:07:04 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+2:07:04 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:07:04 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5205 "-" "axios/0.18.0"
+
+2:07:10 PM - debug: txnProxyId: TM00000000020000000000520
+2:07:10 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+2:07:10 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+2:07:10 PM - debug: merchantId: MC0000000002
+2:07:10 PM - debug: terminalId: TM0000000002
+2:07:10 PM - debug: Test-ret: stutus=true, message=Success
+2:07:10 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:07:10 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+2:09:25 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000010, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:09:25 PM - debug: getMerchant2Pay: MC0000000002
+2:09:25 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:09:25 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:09:25 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:09:25 PM - debug: data.terminalId: TM0000000002
+2:09:25 PM - debug: vMCInfo:
+2:09:25 PM - debug: id00: 000201
+2:09:25 PM - debug: id01: 010211
+2:09:25 PM - debug: ppType: mobile
+2:09:25 PM - debug: person-mobile-ppCode: 0066868135354
+2:09:25 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:09:25 PM - debug: id53: 5303764
+2:09:25 PM - debug: amount-len: 04
+2:09:25 PM - debug: id54: 540490.5
+2:09:25 PM - debug: id58: 5802TH
+2:09:25 PM - debug: Terminal+txnProxyId: TM00000000020000000000521
+2:09:25 PM - debug: len_padding: 25
+2:09:25 PM - debug: len_padding: 29
+2:09:25 PM - debug: results: ["9860"]:
+2:09:25 PM - debug: id63_crc: 9860
+2:09:25 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000052163049860
+2:09:25 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000052163049860
+2:09:25 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+2:09:25 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:09:25 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5401 "-" "axios/0.18.0"
+
+2:09:36 PM - debug: txnProxyId: TM00000000020000000000521
+2:09:36 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+2:09:36 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+2:09:36 PM - debug: merchantId: MC0000000002
+2:09:36 PM - debug: terminalId: TM0000000002
+2:09:36 PM - debug: Test-ret: stutus=true, message=Success
+2:09:36 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:09:36 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+2:12:30 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000011, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:12:30 PM - debug: getMerchant2Pay: MC0000000002
+2:12:30 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:12:30 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:12:30 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:12:30 PM - debug: data.terminalId: TM0000000002
+2:12:30 PM - debug: vMCInfo:
+2:12:30 PM - debug: id00: 000201
+2:12:30 PM - debug: id01: 010211
+2:12:30 PM - debug: ppType: mobile
+2:12:30 PM - debug: person-mobile-ppCode: 0066868135354
+2:12:30 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:12:30 PM - debug: id53: 5303764
+2:12:30 PM - debug: amount-len: 04
+2:12:30 PM - debug: id54: 540490.5
+2:12:30 PM - debug: id58: 5802TH
+2:12:30 PM - debug: Terminal+txnProxyId: TM00000000020000000000522
+2:12:30 PM - debug: len_padding: 25
+2:12:30 PM - debug: len_padding: 29
+2:12:30 PM - debug: results: ["76b2"]:
+2:12:30 PM - debug: id63_crc: 76B2
+2:12:30 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM00000000020000000000522630476B2
+2:12:30 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM00000000020000000000522630476B2
+2:12:30 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+2:12:30 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:12:30 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5481 "-" "axios/0.18.0"
+
+2:12:36 PM - debug: txnProxyId: TM00000000020000000000522
+2:12:36 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+2:12:36 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+2:12:36 PM - debug: merchantId: MC0000000002
+2:12:36 PM - debug: terminalId: TM0000000002
+2:12:36 PM - debug: Test-ret: stutus=true, message=Success
+2:12:36 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:12:36 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+2:19:20 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000012, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:19:20 PM - debug: getMerchant2Pay: MC0000000002
+2:19:20 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:19:20 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:19:20 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:19:20 PM - debug: data.terminalId: TM0000000002
+2:19:20 PM - debug: vMCInfo:
+2:19:20 PM - debug: id00: 000201
+2:19:20 PM - debug: id01: 010211
+2:19:20 PM - debug: ppType: mobile
+2:19:20 PM - debug: person-mobile-ppCode: 0066868135354
+2:19:20 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:19:20 PM - debug: id53: 5303764
+2:19:20 PM - debug: amount-len: 04
+2:19:20 PM - debug: id54: 540490.5
+2:19:20 PM - debug: id58: 5802TH
+2:19:20 PM - debug: Terminal+txnProxyId: TM00000000020000000000523
+2:19:20 PM - debug: len_padding: 25
+2:19:20 PM - debug: len_padding: 29
+2:19:20 PM - debug: results: ["dce3"]:
+2:19:20 PM - debug: id63_crc: DCE3
+2:19:20 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005236304DCE3
+2:19:20 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005236304DCE3
+2:19:20 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+2:19:20 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:19:20 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5313 "-" "axios/0.18.0"
+
+2:19:28 PM - debug: txnProxyId: TM00000000020000000000523
+2:19:28 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+2:19:28 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+2:19:28 PM - debug: merchantId: MC0000000002
+2:19:28 PM - debug: terminalId: TM0000000002
+2:19:28 PM - debug: Test-ret: stutus=true, message=Success
+2:19:28 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:19:28 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+2:20:26 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000013, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:20:26 PM - debug: getMerchant2Pay: MC0000000002
+2:20:26 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:20:26 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:20:26 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:20:26 PM - debug: data.terminalId: TM0000000002
+2:20:26 PM - debug: vMCInfo:
+2:20:26 PM - debug: id00: 000201
+2:20:26 PM - debug: id01: 010211
+2:20:26 PM - debug: ppType: mobile
+2:20:26 PM - debug: person-mobile-ppCode: 0066868135354
+2:20:26 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:20:26 PM - debug: id53: 5303764
+2:20:26 PM - debug: amount-len: 04
+2:20:26 PM - debug: id54: 540490.5
+2:20:26 PM - debug: id58: 5802TH
+2:20:26 PM - debug: Terminal+txnProxyId: TM00000000020000000000524
+2:20:26 PM - debug: len_padding: 25
+2:20:26 PM - debug: len_padding: 29
+2:20:26 PM - debug: results: ["bb37"]:
+2:20:26 PM - debug: id63_crc: BB37
+2:20:26 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005246304BB37
+2:20:26 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005246304BB37
+2:20:26 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+2:20:26 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:20:26 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5249 "-" "axios/0.18.0"
+
+2:20:33 PM - debug: txnProxyId: TM00000000020000000000524
+2:20:33 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+2:20:33 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+2:20:33 PM - debug: merchantId: MC0000000002
+2:20:33 PM - debug: terminalId: TM0000000002
+2:20:33 PM - debug: Test-ret: stutus=true, message=Success
+2:20:33 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:20:33 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+2:22:05 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000014, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:22:05 PM - debug: getMerchant2Pay: MC0000000002
+2:22:05 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:22:05 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:22:05 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:22:05 PM - debug: data.terminalId: TM0000000002
+2:22:05 PM - debug: vMCInfo:
+2:22:05 PM - debug: id00: 000201
+2:22:05 PM - debug: id01: 010211
+2:22:05 PM - debug: ppType: mobile
+2:22:05 PM - debug: person-mobile-ppCode: 0066868135354
+2:22:05 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:22:05 PM - debug: id53: 5303764
+2:22:05 PM - debug: amount-len: 04
+2:22:05 PM - debug: id54: 540490.5
+2:22:05 PM - debug: id58: 5802TH
+2:22:05 PM - debug: Terminal+txnProxyId: TM00000000020000000000525
+2:22:05 PM - debug: len_padding: 25
+2:22:05 PM - debug: len_padding: 29
+2:22:05 PM - debug: results: ["1166"]:
+2:22:05 PM - debug: id63_crc: 1166
+2:22:05 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000052563041166
+2:22:05 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000052563041166
+2:22:05 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+2:22:05 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:22:05 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5341 "-" "axios/0.18.0"
+
+2:22:11 PM - debug: txnProxyId: TM00000000020000000000525
+2:22:11 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+2:22:11 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+2:22:11 PM - debug: merchantId: MC0000000002
+2:22:11 PM - debug: terminalId: TM0000000002
+2:22:11 PM - debug: Test-ret: stutus=true, message=Success
+2:22:11 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:22:11 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+2:25:07 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000015, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:25:07 PM - debug: getMerchant2Pay: MC0000000002
+2:25:07 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:25:07 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:25:07 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:25:07 PM - debug: data.terminalId: TM0000000002
+2:25:07 PM - debug: vMCInfo:
+2:25:07 PM - debug: id00: 000201
+2:25:07 PM - debug: id01: 010211
+2:25:07 PM - debug: ppType: mobile
+2:25:07 PM - debug: person-mobile-ppCode: 0066868135354
+2:25:07 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:25:07 PM - debug: id53: 5303764
+2:25:07 PM - debug: amount-len: 04
+2:25:07 PM - debug: id54: 540490.5
+2:25:07 PM - debug: id58: 5802TH
+2:25:07 PM - debug: Terminal+txnProxyId: TM00000000020000000000526
+2:25:07 PM - debug: len_padding: 25
+2:25:07 PM - debug: len_padding: 29
+2:25:07 PM - debug: results: ["ffb4"]:
+2:25:07 PM - debug: id63_crc: FFB4
+2:25:07 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005266304FFB4
+2:25:07 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005266304FFB4
+2:25:07 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+2:25:07 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:25:07 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5253 "-" "axios/0.18.0"
+
+2:25:13 PM - debug: txnProxyId: TM00000000020000000000526
+2:25:13 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+2:25:13 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+2:25:13 PM - debug: merchantId: MC0000000002
+2:25:13 PM - debug: terminalId: TM0000000002
+2:25:13 PM - debug: Test-ret: stutus=true, message=Success
+2:25:13 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:25:13 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+2:29:13 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000016, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:29:13 PM - debug: getMerchant2Pay: MC0000000002
+2:29:13 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:29:13 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:29:13 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:29:13 PM - debug: data.terminalId: TM0000000002
+2:29:13 PM - debug: vMCInfo:
+2:29:13 PM - debug: id00: 000201
+2:29:13 PM - debug: id01: 010211
+2:29:13 PM - debug: ppType: mobile
+2:29:13 PM - debug: person-mobile-ppCode: 0066868135354
+2:29:13 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:29:13 PM - debug: id53: 5303764
+2:29:13 PM - debug: amount-len: 04
+2:29:13 PM - debug: id54: 540490.5
+2:29:13 PM - debug: id58: 5802TH
+2:29:13 PM - debug: Terminal+txnProxyId: TM00000000020000000000527
+2:29:13 PM - debug: len_padding: 25
+2:29:13 PM - debug: len_padding: 29
+2:29:13 PM - debug: results: ["55e5"]:
+2:29:13 PM - debug: id63_crc: 55E5
+2:29:13 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM00000000020000000000527630455E5
+2:29:13 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM00000000020000000000527630455E5
+2:29:13 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+2:29:13 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:29:13 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5481 "-" "axios/0.18.0"
+
+2:35:57 PM - debug: Server is listing on port 4001
+2:36:04 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000017, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:36:04 PM - debug: getMerchant2Pay: MC0000000002
+2:36:05 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:36:05 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:36:05 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:36:05 PM - debug: data.terminalId: TM0000000002
+2:36:05 PM - debug: vMCInfo:
+2:36:05 PM - debug: id00: 000201
+2:36:05 PM - debug: id01: 010211
+2:36:05 PM - debug: ppType: mobile
+2:36:05 PM - debug: person-mobile-ppCode: 0066868135354
+2:36:05 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:36:05 PM - debug: id53: 5303764
+2:36:05 PM - debug: amount-len: 04
+2:36:05 PM - debug: id54: 540490.5
+2:36:05 PM - debug: id58: 5802TH
+2:36:05 PM - debug: Terminal+txnProxyId: TM00000000020000000000528
+2:36:05 PM - debug: len_padding: 25
+2:36:05 PM - debug: len_padding: 29
+2:36:05 PM - debug: results: ["301c"]:
+2:36:05 PM - debug: id63_crc: 301C
+2:36:05 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005286304301C
+2:36:05 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005286304301C
+2:36:05 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+2:36:05 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:36:05 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5329 "-" "axios/0.18.0"
+
+2:36:14 PM - debug: txnProxyId: TM00000000020000000000528
+2:36:14 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+2:36:14 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+2:36:14 PM - debug: merchantId: MC0000000002
+2:36:14 PM - debug: terminalId: TM0000000002
+2:36:14 PM - debug: Test-ret: stutus=true, message=Success
+2:36:14 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:36:14 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+2:41:34 PM - debug: Server is listing on port 4001
+2:41:41 PM - debug: Server is listing on port 4001
+2:41:46 PM - debug: Server is listing on port 4001
+2:41:55 PM - debug: Server is listing on port 4001
+2:41:59 PM - debug: Server is listing on port 4001
+2:42:06 PM - debug: Server is listing on port 4001
+2:42:23 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000018, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:42:23 PM - debug: getMerchant2Pay: MC0000000002
+2:42:23 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:42:23 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:42:23 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:42:23 PM - debug: data.terminalId: TM0000000002
+2:42:23 PM - debug: vMCInfo:
+2:42:23 PM - debug: id00: 000201
+2:42:23 PM - debug: id01: 010211
+2:42:23 PM - debug: ppType: mobile
+2:42:23 PM - debug: person-mobile-ppCode: 0066868135354
+2:42:23 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:42:23 PM - debug: id53: 5303764
+2:42:23 PM - debug: amount-len: 04
+2:42:23 PM - debug: id54: 540490.5
+2:42:23 PM - debug: id58: 5802TH
+2:42:23 PM - debug: Terminal+txnProxyId: TM00000000020000000000529
+2:42:23 PM - debug: len_padding: 25
+2:42:23 PM - debug: len_padding: 29
+2:42:23 PM - debug: results: ["9a4d"]:
+2:42:23 PM - debug: id63_crc: 9A4D
+2:42:23 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000052963049A4D
+2:42:23 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000052963049A4D
+2:42:24 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+2:42:24 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:42:24 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5429 "-" "axios/0.18.0"
+
+2:45:26 PM - debug: Server is listing on port 4001
+2:45:31 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000019, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+2:45:31 PM - debug: getMerchant2Pay: MC0000000002
+2:45:31 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+2:45:31 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+2:45:31 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+2:45:31 PM - debug: data.terminalId: TM0000000002
+2:45:31 PM - debug: vMCInfo:
+2:45:31 PM - debug: id00: 000201
+2:45:31 PM - debug: id01: 010211
+2:45:31 PM - debug: ppType: mobile
+2:45:31 PM - debug: person-mobile-ppCode: 0066868135354
+2:45:31 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+2:45:31 PM - debug: id53: 5303764
+2:45:31 PM - debug: amount-len: 04
+2:45:31 PM - debug: id54: 540490.5
+2:45:31 PM - debug: id58: 5802TH
+2:45:31 PM - debug: Terminal+txnProxyId: TM00000000020000000000530
+2:45:31 PM - debug: len_padding: 25
+2:45:31 PM - debug: len_padding: 29
+2:45:32 PM - debug: results: ["7791"]:
+2:45:32 PM - debug: id63_crc: 7791
+2:45:32 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000053063047791
+2:45:32 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000053063047791
+2:45:32 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+2:45:32 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:45:32 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5453 "-" "axios/0.18.0"
+
+2:45:41 PM - debug: txnProxyId: TM00000000020000000000529
+2:45:41 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+2:45:41 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+2:45:41 PM - debug: merchantId: MC0000000002
+2:45:41 PM - debug: terminalId: TM0000000002
+2:45:41 PM - debug: Test-ret: stutus=true, message=Success
+2:45:41 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:07:45:41 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+3:00:46 PM - debug: Server is listing on port 4001
+3:01:11 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000020, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+3:01:11 PM - debug: getMerchant2Pay: MC0000000002
+3:01:11 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+3:01:11 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+3:01:11 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+3:01:11 PM - debug: data.terminalId: TM0000000002
+3:01:11 PM - debug: vMCInfo:
+3:01:11 PM - debug: id00: 000201
+3:01:11 PM - debug: id01: 010211
+3:01:11 PM - debug: ppType: mobile
+3:01:11 PM - debug: person-mobile-ppCode: 0066868135354
+3:01:11 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+3:01:11 PM - debug: id53: 5303764
+3:01:11 PM - debug: amount-len: 04
+3:01:11 PM - debug: id54: 540490.5
+3:01:11 PM - debug: id58: 5802TH
+3:01:11 PM - debug: Terminal+txnProxyId: TM00000000020000000000531
+3:01:11 PM - debug: len_padding: 25
+3:01:11 PM - debug: len_padding: 29
+3:01:11 PM - debug: results: ["ddc0"]:
+3:01:11 PM - debug: id63_crc: DDC0
+3:01:11 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005316304DDC0
+3:01:11 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005316304DDC0
+3:01:11 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+3:01:11 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:08:01:11 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5269 "-" "axios/0.18.0"
+
+3:01:34 PM - debug: txnProxyId: TM00000000020000000000531
+3:01:34 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+3:01:34 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+3:01:34 PM - debug: merchantId: MC0000000002
+3:01:34 PM - debug: terminalId: TM0000000002
+3:01:34 PM - debug: Test-ret: stutus=true, message=Success
+3:01:34 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:08:01:34 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+3:02:42 PM - debug: Server is listing on port 4001
+3:02:53 PM - debug: Server is listing on port 4001
+3:02:55 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000021, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+3:02:55 PM - debug: getMerchant2Pay: MC0000000002
+3:02:55 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+3:02:55 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+3:02:55 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+3:02:55 PM - debug: data.terminalId: TM0000000002
+3:02:55 PM - debug: vMCInfo:
+3:02:55 PM - debug: id00: 000201
+3:02:55 PM - debug: id01: 010211
+3:02:55 PM - debug: ppType: mobile
+3:02:55 PM - debug: person-mobile-ppCode: 0066868135354
+3:02:55 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+3:02:55 PM - debug: id53: 5303764
+3:02:55 PM - debug: amount-len: 04
+3:02:55 PM - debug: id54: 540490.5
+3:02:55 PM - debug: id58: 5802TH
+3:02:55 PM - debug: Terminal+txnProxyId: TM00000000020000000000532
+3:02:55 PM - debug: len_padding: 25
+3:02:55 PM - debug: len_padding: 29
+3:02:55 PM - debug: results: ["3312"]:
+3:02:55 PM - debug: id63_crc: 3312
+3:02:55 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000053263043312
+3:02:55 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000053263043312
+3:02:55 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+3:02:55 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:08:02:55 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5273 "-" "axios/0.18.0"
+
+3:03:02 PM - debug: txnProxyId: TM00000000020000000000532
+3:03:02 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+3:03:02 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+3:03:02 PM - debug: merchantId: MC0000000002
+3:03:02 PM - debug: terminalId: TM0000000002
+3:03:02 PM - debug: Test-ret: stutus=true, message=Success
+3:03:02 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:08:03:02 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+3:07:18 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000022, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+3:07:18 PM - debug: getMerchant2Pay: MC0000000002
+3:07:18 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+3:07:18 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+3:07:18 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+3:07:18 PM - debug: data.terminalId: TM0000000002
+3:07:18 PM - debug: vMCInfo:
+3:07:18 PM - debug: id00: 000201
+3:07:18 PM - debug: id01: 010211
+3:07:18 PM - debug: ppType: mobile
+3:07:18 PM - debug: person-mobile-ppCode: 0066868135354
+3:07:18 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+3:07:18 PM - debug: id53: 5303764
+3:07:18 PM - debug: amount-len: 04
+3:07:18 PM - debug: id54: 540490.5
+3:07:18 PM - debug: id58: 5802TH
+3:07:18 PM - debug: Terminal+txnProxyId: TM00000000020000000000533
+3:07:18 PM - debug: len_padding: 25
+3:07:18 PM - debug: len_padding: 29
+3:07:18 PM - debug: results: ["9943"]:
+3:07:18 PM - debug: id63_crc: 9943
+3:07:18 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000053363049943
+3:07:18 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM0000000002000000000053363049943
+3:07:18 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+3:07:18 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:08:07:18 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5369 "-" "axios/0.18.0"
+
+3:07:29 PM - debug: txnProxyId: TM00000000020000000000533
+3:07:29 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+3:07:29 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+3:07:29 PM - debug: merchantId: MC0000000002
+3:07:29 PM - debug: terminalId: TM0000000002
+3:07:29 PM - debug: Test-ret: stutus=true, message=Success
+3:07:29 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:08:07:29 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+3:18:23 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000023, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+3:18:23 PM - debug: getMerchant2Pay: MC0000000002
+3:18:23 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:3000/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+3:18:23 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+3:18:23 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+3:18:23 PM - debug: data.terminalId: TM0000000002
+3:18:23 PM - debug: vMCInfo:
+3:18:23 PM - debug: id00: 000201
+3:18:23 PM - debug: id01: 010211
+3:18:23 PM - debug: ppType: mobile
+3:18:23 PM - debug: person-mobile-ppCode: 0066868135354
+3:18:23 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+3:18:23 PM - debug: id53: 5303764
+3:18:23 PM - debug: amount-len: 04
+3:18:23 PM - debug: id54: 540490.5
+3:18:23 PM - debug: id58: 5802TH
+3:18:23 PM - debug: Terminal+txnProxyId: TM00000000020000000000534
+3:18:23 PM - debug: len_padding: 25
+3:18:23 PM - debug: len_padding: 29
+3:18:23 PM - debug: results: ["fe97"]:
+3:18:23 PM - debug: id63_crc: FE97
+3:18:23 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005346304FE97
+3:18:23 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM000000000200000000005346304FE97
+3:18:23 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+3:18:23 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:08:18:23 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5417 "-" "axios/0.18.0"
+
+3:18:32 PM - debug: txnProxyId: TM00000000020000000000534
+3:18:32 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+3:18:32 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+3:18:32 PM - debug: merchantId: MC0000000002
+3:18:32 PM - debug: terminalId: TM0000000002
+3:18:32 PM - debug: Test-ret: stutus=true, message=Success
+3:18:32 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:08:18:32 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+3:19:50 PM - debug:  merchantId=MC0000000002, ref1=OESP0000000000024, ref2=NA, ref3=NA, amount=90.5, storeId=ST0000000002, terminalId=TM0000000002, bankCode=SCB, paymethod=ThaiQR
+3:19:50 PM - debug: getMerchant2Pay: MC0000000002
+3:19:50 PM - debug: merchant: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, status=active, notifymode=Both, urlhook=http://localhost:5001/qrpaid, hook_key=Bearer hello, store=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27], merchantId=MC0000000002, name=p.auoychai@gmail.com, address=defaul-address, tel=0868135354, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=25, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:58 GMT+0700 (+07), __v=0
+3:19:50 PM - debug: store: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27, status=active, terminal=[_bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=28], storeId=ST0000000002, name=ST0000000002, tel=0868135355, zone=Zone1, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=102, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=26, updatedAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), createdAt=Sun Jul 08 2018 13:29:59 GMT+0700 (+07), __v=0
+3:19:50 PM - debug: store[0].id: _bsontype=ObjectID, 0=91, 1=65, 2=175, 3=103, 4=212, 5=42, 6=75, 7=36, 8=235, 9=115, 10=132, 11=27
+3:19:50 PM - debug: data.terminalId: TM0000000002
+3:19:50 PM - debug: vMCInfo:
+3:19:50 PM - debug: id00: 000201
+3:19:50 PM - debug: id01: 010211
+3:19:50 PM - debug: ppType: mobile
+3:19:50 PM - debug: person-mobile-ppCode: 0066868135354
+3:19:50 PM - debug: mc-T29-T30: 29370016A00000067701011101130066868135354
+3:19:50 PM - debug: id53: 5303764
+3:19:50 PM - debug: amount-len: 04
+3:19:50 PM - debug: id54: 540490.5
+3:19:50 PM - debug: id58: 5802TH
+3:19:50 PM - debug: Terminal+txnProxyId: TM00000000020000000000535
+3:19:50 PM - debug: len_padding: 25
+3:19:50 PM - debug: len_padding: 29
+3:19:50 PM - debug: results: ["54c6"]:
+3:19:50 PM - debug: id63_crc: 54C6
+3:19:50 PM - debug: id63_crc_upper-case: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM00000000020000000000535630454C6
+3:19:50 PM - debug: qtTxt-genQRCode: 00020101021129370016A000000677010111011300668681353545802TH5303764540490.562290725TM00000000020000000000535630454C6
+3:19:50 PM - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0f ... >
+3:19:50 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:08:19:50 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5449 "-" "axios/0.18.0"
+
+3:19:57 PM - debug: txnProxyId: TM00000000020000000000535
+3:19:57 PM - debug: isDT: 2018-06-25T10:30:10.000Z
+3:19:57 PM - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+3:19:57 PM - debug: merchantId: MC0000000002
+3:19:57 PM - debug: terminalId: TM0000000002
+3:19:57 PM - debug: Test-ret: stutus=true, message=Success
+3:19:57 PM - info: ::ffff:127.0.0.1 - - [08/Jul/2018:08:19:57 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+

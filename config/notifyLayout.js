@@ -1,0 +1,28 @@
+
+module.exports = {
+    ref_ID1:"NA",
+    ref_ID2:"NA",
+    routingDestBank:"NA",
+    mobileNo:"NA",
+    fromBankName:"NA",
+    txnRefNo:"NA",
+    transaction_date:"NA",
+    transaction_time:"NA",
+    txn_dt:"NA",
+    fromAccount:"NA",
+    receivingID:"NA",
+    proxyType:"NA",
+    toBankName:"NA",
+    toAccount:"NA",
+    toAccountNameD:"NA",
+    toAccountName:"NA",
+    amount:"NA",
+    bRef1:"NA",
+    bRef2:"NA",
+    bRef3:"NA",
+    tag29_proxy:"NA",
+    tag30_proxy:"NA",
+    notes:"NA",
+    tagType:"NA",
+    bankNotify:"NA"
+}

@@ -1,0 +1,8 @@
+12:19:43 - debug: Server is listing on port 4001
+12:21:10 - info: ::1 - - [22/Jul/2018:05:21:10 +0000] "GET /app/qrpaidhistory HTTP/1.1" 200 1750 "-" "PostmanRuntime/7.1.5"
+
+12:23:21 - debug: Server is listing on port 4001
+12:23:24 - debug: Server is listing on port 4001
+12:23:43 - debug: Server is listing on port 4001
+12:23:46 - info: ::1 - - [22/Jul/2018:05:23:46 +0000] "GET /app/qrpaidhistory HTTP/1.1" 200 1750 "-" "PostmanRuntime/7.1.5"
+

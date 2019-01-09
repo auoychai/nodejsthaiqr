@@ -1,0 +1,301 @@
+19:49:39 - debug: Server is listing on port 4001
+19:50:21 - debug:  merchantId=esp002, ref1=ESP0001, ref2=1, ref3=1|000, amount=99.45, storeId=esp-store2, terminalId=EPS-002, bankCode=SCB
+19:50:21 - debug: getMerchant2Pay: esp002
+19:50:21 - debug: merchant: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, status=active, store=null, merchantId=esp002, name=BillToEsp, address=450 m.5, tel=0868135354, notifymode=Device, urlhook=http://evlink.haupcar.com:27001/evlink/paymentnotify, hook_key=Bearer hello, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+19:50:21 - debug: store: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143, status=active, terminal=[], storeId=esp-store2, name=Sangthong, bsntype=commerce, pptype=taxid, ppcode=099400015855602, ppbtype=mobile, ppbcode=0868135355, level1=, level2=, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+19:50:21 - debug: store[0].id: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143
+19:50:21 - debug: data.terminalId: EPS-002
+19:50:21 - debug: vMCInfo:
+19:50:21 - debug: id00: 000201
+19:50:21 - debug: id01: 010211
+19:50:21 - debug: v_aid: 0016A000000677010112
+19:50:21 - debug: v_biller_id:: 0115099400015855602
+19:50:21 - debug: ref1: ESP0001
+19:50:21 - debug: ref2: 1
+19:50:21 - debug: len_padding: 07
+19:50:21 - debug: len_padding: 01
+19:50:21 - debug: len_padding: 50
+19:50:21 - debug: len_padding: 00
+19:50:21 - debug: id59: 5900undefined
+19:50:21 - debug: tag39: 30500016A00000067701011201150994000158556020207ESP0001
+19:50:21 - debug: mc-T29-T30: 30500016A00000067701011201150994000158556020207ESP0001
+19:50:21 - debug: id53: 5303764
+19:50:21 - debug: amount-len: 05
+19:50:21 - debug: id54: 540599.45
+19:50:21 - debug: id58: 5802TH
+19:50:21 - debug: Terminal+txnProxyId: EPS-0020000000000583
+19:50:21 - debug: len_padding: 20
+19:50:21 - debug: len_padding: 24
+19:50:21 - debug: results: ["4b8f"]:
+19:50:21 - debug: id63_crc: 4B8F
+19:50:21 - debug: id63_crc_upper-case: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-002000000000058363044B8F
+19:50:21 - debug: qtTxt-genQRCode: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-002000000000058363044B8F
+19:50:21 - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+19:50:21 - info: ::1 - - [30/Jul/2018:12:50:21 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5337 "-" "PostmanRuntime/7.1.5"
+
+19:50:47 - debug: txnProxyId: EPS-0020000000000583
+19:50:47 - debug: isDT: 2018-06-25T10:30:10.000Z
+19:50:47 - debug: merchantId: esp002
+19:50:47 - debug: terminalId: EPS-002
+19:50:47 - debug: devMsg=>Before: msgType=Paid, ref1=ESP0001, ref2=1, ref3=1|000, amount=99.45, status=true, message=Thank you, txnProxyID=EPS-0020000000000583, txnDate=Mon Jul 30 2018 19:50:21 GMT+0700 (+07), terminalID=EPS-002, cName=, cAccount=SCB5445555, cBankCode=SCB
+19:50:47 - debug: Test-ret: stutus=true, message=Success
+19:50:47 - info: ::ffff:127.0.0.1 - - [30/Jul/2018:12:50:47 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+19:50:47 - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+19:51:48 - debug:  merchantId=esp002, ref1=ESP0001, ref2=1, ref3=1|000, amount=99.45, storeId=esp-store2, terminalId=EPS-002, bankCode=SCB
+19:51:48 - debug: getMerchant2Pay: esp002
+19:51:48 - debug: merchant: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, status=active, store=null, merchantId=esp002, name=BillToEsp, address=450 m.5, tel=0868135354, notifymode=Device, urlhook=http://evlink.haupcar.com:27001/evlink/paymentnotify, hook_key=Bearer hello, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+19:51:48 - debug: store: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143, status=active, terminal=[], storeId=esp-store2, name=Sangthong, bsntype=commerce, pptype=taxid, ppcode=099400015855602, ppbtype=mobile, ppbcode=0868135355, level1=, level2=, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+19:51:48 - debug: store[0].id: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143
+19:51:48 - debug: data.terminalId: EPS-002
+19:51:48 - debug: vMCInfo:
+19:51:48 - debug: id00: 000201
+19:51:48 - debug: id01: 010211
+19:51:48 - debug: v_aid: 0016A000000677010112
+19:51:48 - debug: v_biller_id:: 0115099400015855602
+19:51:48 - debug: ref1: ESP0001
+19:51:48 - debug: ref2: 1
+19:51:48 - debug: len_padding: 07
+19:51:48 - debug: len_padding: 01
+19:51:48 - debug: len_padding: 50
+19:51:48 - debug: len_padding: 00
+19:51:48 - debug: id59: 5900undefined
+19:51:48 - debug: tag39: 30500016A00000067701011201150994000158556020207ESP0001
+19:51:48 - debug: mc-T29-T30: 30500016A00000067701011201150994000158556020207ESP0001
+19:51:48 - debug: id53: 5303764
+19:51:48 - debug: amount-len: 05
+19:51:48 - debug: id54: 540599.45
+19:51:48 - debug: id58: 5802TH
+19:51:48 - debug: Terminal+txnProxyId: EPS-0020000000000584
+19:51:48 - debug: len_padding: 20
+19:51:48 - debug: len_padding: 24
+19:51:48 - debug: results: ["2c5b"]:
+19:51:48 - debug: id63_crc: 2C5B
+19:51:48 - debug: id63_crc_upper-case: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-002000000000058463042C5B
+19:51:48 - debug: qtTxt-genQRCode: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-002000000000058463042C5B
+19:51:48 - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+19:51:48 - info: ::1 - - [30/Jul/2018:12:51:48 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5233 "-" "PostmanRuntime/7.1.5"
+
+19:55:03 - debug: Server is listing on port 4001
+19:55:05 - debug: Server is listing on port 4001
+19:55:08 - debug: Server is listing on port 4001
+19:55:13 - debug: Server is listing on port 4001
+19:55:16 - debug: Server is listing on port 4001
+19:55:26 - debug:  merchantId=esp002, ref1=ESP0001, ref2=1, ref3=1|000, amount=99.45, storeId=esp-store2, terminalId=EPS-002, bankCode=SCB
+19:55:26 - debug: getMerchant2Pay: esp002
+19:55:26 - debug: merchant: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, status=active, store=null, merchantId=esp002, name=BillToEsp, address=450 m.5, tel=0868135354, notifymode=Device, urlhook=http://evlink.haupcar.com:27001/evlink/paymentnotify, hook_key=Bearer hello, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+19:55:26 - debug: store: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143, status=active, terminal=[], storeId=esp-store2, name=Sangthong, bsntype=commerce, pptype=taxid, ppcode=099400015855602, ppbtype=mobile, ppbcode=0868135355, level1=, level2=, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+19:55:26 - debug: store[0].id: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143
+19:55:26 - debug: data.terminalId: EPS-002
+19:55:26 - debug: vMCInfo:
+19:55:26 - debug: id00: 000201
+19:55:26 - debug: id01: 010211
+19:55:26 - debug: v_aid: 0016A000000677010112
+19:55:26 - debug: v_biller_id:: 0115099400015855602
+19:55:26 - debug: ref1: ESP0001
+19:55:26 - debug: ref2: 1
+19:55:26 - debug: len_padding: 07
+19:55:26 - debug: len_padding: 01
+19:55:26 - debug: len_padding: 50
+19:55:26 - debug: len_padding: 00
+19:55:26 - debug: id59: 5900undefined
+19:55:26 - debug: tag39: 30500016A00000067701011201150994000158556020207ESP0001
+19:55:26 - debug: mc-T29-T30: 30500016A00000067701011201150994000158556020207ESP0001
+19:55:26 - debug: id53: 5303764
+19:55:26 - debug: amount-len: 05
+19:55:26 - debug: id54: 540599.45
+19:55:26 - debug: id58: 5802TH
+19:55:26 - debug: Terminal+txnProxyId: EPS-0020000000000585
+19:55:26 - debug: len_padding: 20
+19:55:26 - debug: len_padding: 24
+19:55:27 - debug: results: ["860a"]:
+19:55:27 - debug: id63_crc: 860A
+19:55:27 - debug: id63_crc_upper-case: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-00200000000005856304860A
+19:55:27 - debug: qtTxt-genQRCode: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-00200000000005856304860A
+19:55:27 - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+19:55:27 - info: ::1 - - [30/Jul/2018:12:55:27 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5269 "-" "PostmanRuntime/7.1.5"
+
+19:55:39 - debug: txnProxyId: EPS-0020000000000585
+19:55:39 - debug: isDT: 2018-06-25T10:30:10.000Z
+19:55:39 - debug: merchantId: esp002
+19:55:39 - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+19:55:39 - debug: terminalId: EPS-002
+19:55:39 - debug: Test-ret: stutus=true, message=Success
+19:55:39 - info: ::ffff:127.0.0.1 - - [30/Jul/2018:12:55:39 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+19:56:16 - debug: Server is listing on port 4001
+19:56:18 - debug: Server is listing on port 4001
+19:56:23 - debug: Server is listing on port 4001
+19:56:27 - info: ::1 - - [30/Jul/2018:12:56:27 +0000] "GET /app/qrpaidhistory HTTP/1.1" 200 2162 "-" "PostmanRuntime/7.1.5"
+
+19:56:36 - debug:  merchantId=esp002, ref1=ESP0001, ref2=1, ref3=1|000, amount=99.45, storeId=esp-store2, terminalId=EPS-002, bankCode=SCB
+19:56:36 - debug: getMerchant2Pay: esp002
+19:56:36 - debug: merchant: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, status=active, store=null, merchantId=esp002, name=BillToEsp, address=450 m.5, tel=0868135354, notifymode=Device, urlhook=http://evlink.haupcar.com:27001/evlink/paymentnotify, hook_key=Bearer hello, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+19:56:36 - debug: store: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143, status=active, terminal=[], storeId=esp-store2, name=Sangthong, bsntype=commerce, pptype=taxid, ppcode=099400015855602, ppbtype=mobile, ppbcode=0868135355, level1=, level2=, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+19:56:36 - debug: store[0].id: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143
+19:56:36 - debug: data.terminalId: EPS-002
+19:56:36 - debug: vMCInfo:
+19:56:36 - debug: id00: 000201
+19:56:36 - debug: id01: 010211
+19:56:36 - debug: v_aid: 0016A000000677010112
+19:56:36 - debug: v_biller_id:: 0115099400015855602
+19:56:36 - debug: ref1: ESP0001
+19:56:36 - debug: ref2: 1
+19:56:36 - debug: len_padding: 07
+19:56:36 - debug: len_padding: 01
+19:56:36 - debug: len_padding: 50
+19:56:36 - debug: len_padding: 00
+19:56:36 - debug: id59: 5900undefined
+19:56:36 - debug: tag39: 30500016A00000067701011201150994000158556020207ESP0001
+19:56:36 - debug: mc-T29-T30: 30500016A00000067701011201150994000158556020207ESP0001
+19:56:36 - debug: id53: 5303764
+19:56:36 - debug: amount-len: 05
+19:56:36 - debug: id54: 540599.45
+19:56:36 - debug: id58: 5802TH
+19:56:36 - debug: Terminal+txnProxyId: EPS-0020000000000586
+19:56:36 - debug: len_padding: 20
+19:56:36 - debug: len_padding: 24
+19:56:36 - debug: results: ["68d8"]:
+19:56:36 - debug: id63_crc: 68D8
+19:56:36 - debug: id63_crc_upper-case: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-0020000000000586630468D8
+19:56:36 - debug: qtTxt-genQRCode: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-0020000000000586630468D8
+19:56:36 - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+19:56:36 - info: ::1 - - [30/Jul/2018:12:56:36 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5309 "-" "PostmanRuntime/7.1.5"
+
+19:58:10 - debug: txnProxyId: EPS-0020000000000586
+19:58:10 - debug: isDT: 2018-06-25T10:30:10.000Z
+19:58:10 - debug: merchantId: esp002
+19:58:10 - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+19:58:10 - debug: terminalId: EPS-002
+19:58:10 - info: devMsg=>Before: msgType=Paid, ref1=ESP0001, ref2=1, ref3=1|000, amount=99.45, status=true, message=Thank you, txnProxyID=EPS-0020000000000586, txnDate=Mon Jul 30 2018 19:56:36 GMT+0700 (+07), terminalID=EPS-002, cName=, cAccount=ESPProxy10, cBankCode=NA
+19:58:10 - debug: Test-ret: stutus=true, message=Success
+19:58:10 - info: ::ffff:127.0.0.1 - - [30/Jul/2018:12:58:10 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+20:08:40 - debug:  merchantId=esp002, ref1=ESP0001, ref2=1, ref3=1|000, amount=99.45, storeId=esp-store2, terminalId=EPS-002, bankCode=SCB
+20:08:40 - debug: getMerchant2Pay: esp002
+20:08:40 - debug: merchant: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, status=active, store=null, merchantId=esp002, name=BillToEsp, address=450 m.5, tel=0868135354, notifymode=Device, urlhook=http://evlink.haupcar.com:27001/evlink/paymentnotify, hook_key=Bearer hello, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+20:08:40 - debug: store: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143, status=active, terminal=[], storeId=esp-store2, name=Sangthong, bsntype=commerce, pptype=taxid, ppcode=099400015855602, ppbtype=mobile, ppbcode=0868135355, level1=, level2=, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+20:08:40 - debug: store[0].id: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143
+20:08:40 - debug: data.terminalId: EPS-002
+20:08:40 - debug: vMCInfo:
+20:08:40 - debug: id00: 000201
+20:08:40 - debug: id01: 010211
+20:08:40 - debug: v_aid: 0016A000000677010112
+20:08:40 - debug: v_biller_id:: 0115099400015855602
+20:08:40 - debug: ref1: ESP0001
+20:08:40 - debug: ref2: 1
+20:08:40 - debug: len_padding: 07
+20:08:40 - debug: len_padding: 01
+20:08:40 - debug: len_padding: 50
+20:08:40 - debug: len_padding: 00
+20:08:40 - debug: id59: 5900undefined
+20:08:40 - debug: tag39: 30500016A00000067701011201150994000158556020207ESP0001
+20:08:40 - debug: mc-T29-T30: 30500016A00000067701011201150994000158556020207ESP0001
+20:08:40 - debug: id53: 5303764
+20:08:40 - debug: amount-len: 05
+20:08:40 - debug: id54: 540599.45
+20:08:40 - debug: id58: 5802TH
+20:08:40 - debug: Terminal+txnProxyId: EPS-0020000000000587
+20:08:40 - debug: len_padding: 20
+20:08:40 - debug: len_padding: 24
+20:08:40 - debug: results: ["c289"]:
+20:08:40 - debug: id63_crc: C289
+20:08:40 - debug: id63_crc_upper-case: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-00200000000005876304C289
+20:08:40 - debug: qtTxt-genQRCode: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-00200000000005876304C289
+20:08:40 - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+20:08:40 - info: ::1 - - [30/Jul/2018:13:08:40 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5253 "-" "PostmanRuntime/7.1.5"
+
+20:08:52 - debug: txnProxyId: EPS-0020000000000587
+20:08:52 - debug: isDT: 2018-06-25T10:30:10.000Z
+20:08:52 - debug: merchantId: esp002
+20:08:52 - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+20:08:52 - debug: terminalId: EPS-002
+20:08:52 - info: devMsg=>Before: msgType=Paid, ref1=ESP0001, ref2=1, ref3=1|000, amount=99.45, status=true, message=Thank you, txnProxyID=EPS-0020000000000587, txnDate=Mon Jul 30 2018 20:08:40 GMT+0700 (+07), terminalID=EPS-002, cName=, cAccount=ESPProxy10, cBankCode=BBL
+20:08:52 - debug: Test-ret: stutus=true, message=Success
+20:08:52 - info: ::ffff:127.0.0.1 - - [30/Jul/2018:13:08:52 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+20:09:46 - debug: Server is listing on port 4001
+20:09:49 - debug:  merchantId=esp002, ref1=ESP0001, ref2=1, ref3=1|000, amount=99.45, storeId=esp-store2, terminalId=EPS-002, bankCode=SCB
+20:09:49 - debug: getMerchant2Pay: esp002
+20:09:49 - debug: merchant: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, status=active, store=null, merchantId=esp002, name=BillToEsp, address=450 m.5, tel=0868135354, notifymode=Device, urlhook=http://evlink.haupcar.com:27001/evlink/paymentnotify, hook_key=Bearer hello, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+20:09:49 - debug: store: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143, status=active, terminal=[], storeId=esp-store2, name=Sangthong, bsntype=commerce, pptype=taxid, ppcode=099400015855602, ppbtype=mobile, ppbcode=0868135355, level1=, level2=, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+20:09:49 - debug: store[0].id: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143
+20:09:49 - debug: data.terminalId: EPS-002
+20:09:49 - debug: vMCInfo:
+20:09:49 - debug: id00: 000201
+20:09:49 - debug: id01: 010211
+20:09:49 - debug: v_aid: 0016A000000677010112
+20:09:49 - debug: v_biller_id:: 0115099400015855602
+20:09:49 - debug: ref1: ESP0001
+20:09:49 - debug: ref2: 1
+20:09:49 - debug: len_padding: 07
+20:09:49 - debug: len_padding: 01
+20:09:49 - debug: len_padding: 50
+20:09:49 - debug: len_padding: 00
+20:09:49 - debug: id59: 5900undefined
+20:09:49 - debug: tag39: 30500016A00000067701011201150994000158556020207ESP0001
+20:09:49 - debug: mc-T29-T30: 30500016A00000067701011201150994000158556020207ESP0001
+20:09:49 - debug: id53: 5303764
+20:09:49 - debug: amount-len: 05
+20:09:49 - debug: id54: 540599.45
+20:09:49 - debug: id58: 5802TH
+20:09:49 - debug: Terminal+txnProxyId: EPS-0020000000000588
+20:09:49 - debug: len_padding: 20
+20:09:49 - debug: len_padding: 24
+20:09:49 - debug: results: ["a770"]:
+20:09:49 - debug: id63_crc: A770
+20:09:49 - debug: id63_crc_upper-case: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-00200000000005886304A770
+20:09:49 - debug: qtTxt-genQRCode: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-00200000000005886304A770
+20:09:50 - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+20:09:50 - info: ::1 - - [30/Jul/2018:13:09:50 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5261 "-" "PostmanRuntime/7.1.5"
+
+20:10:01 - debug: txnProxyId: EPS-0020000000000588
+20:10:01 - debug: isDT: 2018-06-25T10:30:10.000Z
+20:10:01 - debug: merchantId: esp002
+20:10:01 - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+20:10:01 - debug: terminalId: EPS-002
+20:10:02 - debug: Test-ret: stutus=true, message=Success
+20:10:02 - info: ::ffff:127.0.0.1 - - [30/Jul/2018:13:10:02 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
+20:10:12 - debug:  merchantId=esp002, ref1=ESP0001, ref2=1, ref3=1|000, amount=99.45, storeId=esp-store2, terminalId=EPS-002, bankCode=SCB
+20:10:12 - debug: getMerchant2Pay: esp002
+20:10:12 - debug: merchant: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, status=active, store=null, merchantId=esp002, name=BillToEsp, address=450 m.5, tel=0868135354, notifymode=Device, urlhook=http://evlink.haupcar.com:27001/evlink/paymentnotify, hook_key=Bearer hello, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+20:10:12 - debug: store: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143, status=active, terminal=[], storeId=esp-store2, name=Sangthong, bsntype=commerce, pptype=taxid, ppcode=099400015855602, ppbtype=mobile, ppbcode=0868135355, level1=, level2=, secretKey=dsldkjfasdadlkjln, _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=142, updatedAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), createdAt=Tue May 15 2018 08:45:54 GMT+0700 (+07), __v=0
+20:10:12 - debug: store[0].id: _bsontype=ObjectID, 0=90, 1=250, 2=59, 3=210, 4=36, 5=47, 6=191, 7=6, 8=126, 9=87, 10=130, 11=143
+20:10:12 - debug: data.terminalId: EPS-002
+20:10:12 - debug: vMCInfo:
+20:10:12 - debug: id00: 000201
+20:10:12 - debug: id01: 010211
+20:10:12 - debug: v_aid: 0016A000000677010112
+20:10:12 - debug: v_biller_id:: 0115099400015855602
+20:10:12 - debug: ref1: ESP0001
+20:10:12 - debug: ref2: 1
+20:10:12 - debug: len_padding: 07
+20:10:12 - debug: len_padding: 01
+20:10:12 - debug: len_padding: 50
+20:10:12 - debug: len_padding: 00
+20:10:12 - debug: id59: 5900undefined
+20:10:12 - debug: tag39: 30500016A00000067701011201150994000158556020207ESP0001
+20:10:12 - debug: mc-T29-T30: 30500016A00000067701011201150994000158556020207ESP0001
+20:10:12 - debug: id53: 5303764
+20:10:12 - debug: amount-len: 05
+20:10:12 - debug: id54: 540599.45
+20:10:12 - debug: id58: 5802TH
+20:10:12 - debug: Terminal+txnProxyId: EPS-0020000000000589
+20:10:12 - debug: len_padding: 20
+20:10:12 - debug: len_padding: 24
+20:10:12 - debug: results: ["d21"]:
+20:10:12 - debug: id63_crc: 0D21
+20:10:12 - debug: id63_crc_upper-case: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-002000000000058963040D21
+20:10:12 - debug: qtTxt-genQRCode: 00020101021130500016A00000067701011201150994000158556020207ESP00015802TH5303764540599.4562240720EPS-002000000000058963040D21
+20:10:12 - debug: bufferimg: <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 a4 00 00 00 a4 08 06 00 00 00 19 b5 85 41 00 00 00 02 49 44 41 54 78 01 ec 1a 7e d2 00 00 0e ... >
+20:10:12 - info: ::1 - - [30/Jul/2018:13:10:12 +0000] "POST /api/qrpay/genqr HTTP/1.1" 200 5321 "-" "PostmanRuntime/7.1.5"
+
+20:10:26 - debug: txnProxyId: EPS-0020000000000589
+20:10:26 - debug: isDT: 2018-06-25T10:30:10.000Z
+20:10:26 - debug: merchantId: esp002
+20:10:26 - debug: setQRLogA2Paid: n=1, nModified=1, ok=1
+20:10:26 - debug: terminalId: EPS-002
+20:10:26 - debug: Test-ret: stutus=true, message=Success
+20:10:26 - info: ::ffff:127.0.0.1 - - [30/Jul/2018:13:10:26 +0000] "POST /api/esp/paidnotify HTTP/1.1" 200 35 "-" "axios/0.18.0"
+
